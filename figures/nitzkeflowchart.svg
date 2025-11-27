@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256.59909mm"
+   height="358.58423mm"
+   viewBox="0 0 256.59909 358.58423"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="nitzkeflowchart.svg"
+   inkscape:export-filename="nitzkeflowchart.png"
+   inkscape:export-xdpi="60"
+   inkscape:export-ydpi="60"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="false"
+     inkscape:zoom="1.1893044"
+     inkscape:cx="306.06126"
+     inkscape:cy="707.97686"
+     inkscape:window-width="3840"
+     inkscape:window-height="2136"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="90.993425,322.82823"
+       orientation="0,-1"
+       id="guide789"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="94.309494,222.8212"
+       orientation="0,-1"
+       id="guide791"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="90.848685,122.81418"
+       orientation="0,-1"
+       id="guide793"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="138.93807,77.160972"
+       orientation="1,0"
+       id="guide2081"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="TriangleStart"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="17.323999"
+       markerHeight="20.027746"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-67.404485,26.49058)">
+    <rect
+       style="color:#000000;overflow:visible;fill:none;stroke:#000000;stroke-width:0.554231;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:100.1;-inkscape-stroke:none;stop-color:#000000"
+       id="rect234"
+       width="50.17474"
+       height="50.17474"
+       x="54.409771"
+       y="-91.481224"
+       transform="rotate(45)" />
+    <rect
+       style="color:#000000;overflow:visible;fill:none;stroke:#000000;stroke-width:0.554231;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:100.1;-inkscape-stroke:none;stop-color:#000000"
+       id="rect234-6"
+       width="50.17474"
+       height="50.17474"
+       x="126.99628"
+       y="-18.894684"
+       transform="rotate(45)" />
+    <rect
+       style="color:#000000;overflow:visible;fill:none;stroke:#000000;stroke-width:0.554231;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:100.1;-inkscape-stroke:none;stop-color:#000000"
+       id="rect234-7"
+       width="50.17474"
+       height="50.17474"
+       x="199.58282"
+       y="53.691822"
+       transform="rotate(45)" />
+    <rect
+       style="color:#000000;overflow:visible;fill:none;stroke:#000000;stroke-width:0.554231;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:100.1;-inkscape-stroke:none;stop-color:#000000"
+       id="rect737"
+       width="50.17474"
+       height="50.17474"
+       x="281.64178"
+       y="-128.97023"
+       transform="rotate(90)"
+       ry="12.584285" />
+    <rect
+       style="color:#000000;overflow:visible;fill:none;stroke:#000000;stroke-width:0.554231;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:100.1;-inkscape-stroke:none;stop-color:#000000"
+       id="rect737-0"
+       width="50.17474"
+       height="50.17474"
+       x="281.64178"
+       y="-231.80278"
+       transform="rotate(90)"
+       ry="12.584285" />
+    <rect
+       style="color:#000000;overflow:visible;fill:none;stroke:#000000;stroke-width:0.554231;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:100.1;-inkscape-stroke:none;stop-color:#000000"
+       id="rect737-3"
+       width="50.17474"
+       height="50.17474"
+       x="190.64046"
+       y="-323.72647"
+       transform="rotate(90)"
+       ry="12.584285" />
+    <rect
+       style="color:#000000;overflow:visible;fill:none;stroke:#000000;stroke-width:0.554231;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:100.1;-inkscape-stroke:none;stop-color:#000000"
+       id="rect737-6"
+       width="150.40372"
+       height="50.174744"
+       x="-16.042566"
+       y="-221.28296"
+       transform="rotate(90)"
+       ry="12.584285" />
+    <rect
+       style="color:#000000;overflow:visible;fill:none;stroke:#000000;stroke-width:0.554231;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:100.1;-inkscape-stroke:none;stop-color:#000000"
+       id="rect234-5"
+       width="50.17474"
+       height="50.17474"
+       x="272.54352"
+       y="-19.268856"
+       transform="rotate(45)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Arimo;-inkscape-font-specification:Arimo;font-variant-ligatures:none;text-align:center;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="103.31761"
+       y="6.6381922"
+       id="text450"><tspan
+         sodipodi:role="line"
+         id="tspan448"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Arimo;-inkscape-font-specification:Arimo;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px"
+         x="103.31761"
+         y="6.6381922">AT für MÜ</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Arimo;-inkscape-font-specification:Arimo;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px"
+         x="103.31761"
+         y="17.221529"
+         id="tspan2164"> geeignet?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Arimo;-inkscape-font-specification:Arimo;font-variant-ligatures:none;text-align:center;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="104.32217"
+       y="104.36111"
+       id="text504"><tspan
+         sodipodi:role="line"
+         id="tspan502"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Arimo;-inkscape-font-specification:Arimo;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px"
+         x="104.32217"
+         y="104.36111">verlässliche </tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Arimo;-inkscape-font-specification:Arimo;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px"
+         x="104.32217"
+         y="114.94444"
+         id="tspan2146">MÜ-Plugins </tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Arimo;-inkscape-font-specification:Arimo;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px"
+         x="104.32217"
+         y="125.52778"
+         id="tspan2148">für TMS?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Arimo;-inkscape-font-specification:Arimo;font-variant-ligatures:none;text-align:center;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="103.98941"
+       y="211.94389"
+       id="text508"><tspan
+         sodipodi:role="line"
+         id="tspan506"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Arimo;-inkscape-font-specification:Arimo;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px"
+         x="103.98941"
+         y="211.94389">MÜ nur für </tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Arimo;-inkscape-font-specification:Arimo;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px"
+         x="103.98941"
+         y="222.52724"
+         id="tspan2150">Gisting?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Arimo;-inkscape-font-specification:Arimo;font-variant-ligatures:none;text-align:center;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="206.23915"
+       y="212.30563"
+       id="text512"><tspan
+         sodipodi:role="line"
+         id="tspan510"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Arimo;-inkscape-font-specification:Arimo;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px"
+         x="206.23915"
+         y="212.30563">Qualität für ZT</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Arimo;-inkscape-font-specification:Arimo;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px"
+         x="206.23915"
+         y="222.88898"
+         id="tspan2152"> wie bei HÜ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Arimo;-inkscape-font-specification:Arimo;font-variant-ligatures:none;text-align:center;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="196.23692"
+       y="62.660889"
+       id="text516"><tspan
+         sodipodi:role="line"
+         id="tspan514"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Arimo;-inkscape-font-specification:Arimo;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px"
+         x="196.23692"
+         y="62.660889">keine MÜ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Arimo;-inkscape-font-specification:Arimo;font-variant-ligatures:none;text-align:center;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="103.86219"
+       y="310.23074"
+       id="text520"><tspan
+         sodipodi:role="line"
+         id="tspan518"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Arimo;-inkscape-font-specification:Arimo;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px"
+         x="103.86219"
+         y="310.23074">Rohe MÜ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Arimo;-inkscape-font-specification:Arimo;font-variant-ligatures:none;text-align:center;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="298.47372"
+       y="217.91684"
+       id="text524"><tspan
+         sodipodi:role="line"
+         id="tspan522"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Arimo;-inkscape-font-specification:Arimo;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px"
+         x="298.47372"
+         y="217.91684">Light PE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Arimo;-inkscape-font-specification:Arimo;font-variant-ligatures:none;text-align:center;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="207.5443"
+       y="304.46365"
+       id="text528"><tspan
+         sodipodi:role="line"
+         id="tspan526"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Arimo;-inkscape-font-specification:Arimo;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px"
+         x="207.5443"
+         y="304.46365">Full PE + QS </tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:Arimo;-inkscape-font-specification:Arimo;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583px"
+         x="207.5443"
+         y="315.047"
+         id="tspan2154">wie HÜ</tspan></text>
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#TriangleStart);stop-color:#000000;stop-opacity:1"
+       d="m 103.16051,44.744322 -1e-5,29.049226"
+       id="path641" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#TriangleStart);stop-color:#000000;stop-opacity:1"
+       d="m 103.16051,147.3972 1e-5,29.04922"
+       id="path643" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#TriangleStart);stop-color:#000000;stop-opacity:1"
+       d="m 103.16052,250.05007 -1e-5,29.04921"
+       id="path645" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#TriangleStart);stop-color:#000000;stop-opacity:1"
+       d="m 138.63942,214.57117 29.04921,1e-5"
+       id="path645-5" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.82223px;line-height:125%;font-family:MathJax_Math;-inkscape-font-specification:MathJax_Math;font-variant-ligatures:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;fill:#000000;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="103.16051"
+       y="53.494095"
+       id="text671"><tspan
+         sodipodi:role="line"
+         id="tspan669"
+         style="stroke-width:0.264583px"
+         x="103.16051"
+         y="53.494095"></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:'Linux Libertine Display O';-inkscape-font-specification:'Linux Libertine Display O Italic';font-variant-ligatures:none;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       x="106.95309"
+       y="50.096813"
+       id="text701"><tspan
+         sodipodi:role="line"
+         id="tspan699"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:'Linux Libertine Display O';-inkscape-font-specification:'Linux Libertine Display O Italic';font-variant-ligatures:none;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         x="106.95309"
+         y="50.096813">ja</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:'Linux Libertine Display O';-inkscape-font-specification:'Linux Libertine Display O Italic';font-variant-ligatures:none;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       x="107.28581"
+       y="152.49785"
+       id="text705"><tspan
+         sodipodi:role="line"
+         id="tspan703"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:'Linux Libertine Display O';-inkscape-font-specification:'Linux Libertine Display O Italic';font-variant-ligatures:none;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         x="107.28581"
+         y="152.49785">ja</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:'Linux Libertine Display O';-inkscape-font-specification:'Linux Libertine Display O Italic';font-variant-ligatures:none;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       x="107.75677"
+       y="256.26114"
+       id="text709"><tspan
+         sodipodi:role="line"
+         id="tspan707"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:'Linux Libertine Display O';-inkscape-font-specification:'Linux Libertine Display O Italic';font-variant-ligatures:none;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         x="107.75677"
+         y="256.26114">ja</tspan></text>
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#TriangleStart);stop-color:#000000;stop-opacity:1"
+       d="m 206.34255,250.05008 -10e-6,29.04921"
+       id="path645-1" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:'Linux Libertine Display O';-inkscape-font-specification:'Linux Libertine Display O Italic';font-variant-ligatures:none;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="210.93874"
+       y="256.26114"
+       id="text709-8"><tspan
+         sodipodi:role="line"
+         id="tspan707-7"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:'Linux Libertine Display O';-inkscape-font-specification:'Linux Libertine Display O Italic';font-variant-ligatures:none;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         x="210.93874"
+         y="256.26114">ja</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:'Linux Libertine Display O';-inkscape-font-specification:'Linux Libertine Display O Italic';font-variant-ligatures:none;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       x="145.58478"
+       y="212.19698"
+       id="text675"><tspan
+         sodipodi:role="line"
+         id="tspan673"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:'Linux Libertine Display O';-inkscape-font-specification:'Linux Libertine Display O Italic';font-variant-ligatures:none;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         x="145.58478"
+         y="212.19698">nein</tspan></text>
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#TriangleStart);stop-color:#000000;stop-opacity:1"
+       d="m 138.63941,111.9183 29.04921,1e-5"
+       id="path777" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 138.63941,9.2654229 29.04921,10e-6"
+       id="path783" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart)"
+       d="m 138.63941,9.2654229 29.04921,10e-6"
+       id="path645-5-7" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:'Linux Libertine Display O';-inkscape-font-specification:'Linux Libertine Display O Italic';font-variant-ligatures:none;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="145.58476"
+       y="109.5442"
+       id="text781"><tspan
+         sodipodi:role="line"
+         id="tspan779"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:'Linux Libertine Display O';-inkscape-font-specification:'Linux Libertine Display O Italic';font-variant-ligatures:none;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         x="145.58476"
+         y="109.5442">nein</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:'Linux Libertine Display O';-inkscape-font-specification:'Linux Libertine Display O Italic';font-variant-ligatures:none;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="145.58476"
+       y="6.8913255"
+       id="text787"><tspan
+         sodipodi:role="line"
+         id="tspan785"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:'Linux Libertine Display O';-inkscape-font-specification:'Linux Libertine Display O Italic';font-variant-ligatures:none;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         x="145.58476"
+         y="6.8913255">nein</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:'Linux Libertine Display O';-inkscape-font-specification:'Linux Libertine Display O Italic';font-variant-ligatures:none;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="145.58476"
+       y="6.8913255"
+       id="text675-0"><tspan
+         sodipodi:role="line"
+         id="tspan673-9"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:'Linux Libertine Display O';-inkscape-font-specification:'Linux Libertine Display O Italic';font-variant-ligatures:none;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         x="145.58476"
+         y="6.8913255">nein</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 241.82145,214.57118 29.04921,1e-5"
+       id="path783-3" />
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#TriangleStart);stop-color:#000000;stop-opacity:1"
+       d="m 241.82145,214.57118 29.04921,1e-5"
+       id="path645-5-7-6" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:'Linux Libertine Display O';-inkscape-font-specification:'Linux Libertine Display O Italic';font-variant-ligatures:none;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="248.76672"
+       y="212.19698"
+       id="text787-0"><tspan
+         sodipodi:role="line"
+         id="tspan785-6"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:'Linux Libertine Display O';-inkscape-font-specification:'Linux Libertine Display O Italic';font-variant-ligatures:none;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         x="248.76672"
+         y="212.19698">nein</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:'Linux Libertine Display O';-inkscape-font-specification:'Linux Libertine Display O Italic';font-variant-ligatures:none;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       x="248.76672"
+       y="212.19698"
+       id="text675-0-2"><tspan
+         sodipodi:role="line"
+         id="tspan673-9-6"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:'Linux Libertine Display O';-inkscape-font-specification:'Linux Libertine Display O Italic';font-variant-ligatures:none;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+         x="248.76672"
+         y="212.19698">nein</tspan></text>
+  </g>
+</svg>

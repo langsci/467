@@ -1,0 +1,1470 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <bib:Article rdf:about="#item_4563">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Proceedings of the Workshop on Natural Language Processing for Translation Memories (NLP4TM), Hissar, Bulgaria</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barbu</foaf:surname>
+                        <foaf:givenName>Eduard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_5867"/>
+        <bib:pages>9–16</bib:pages>
+        <dc:date>2015</dc:date>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Spotting false translation segments in translation memories</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_5867">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="attachments:Barbu_2015_Spotting false translation segments in translation memories.pdf"/>
+        <dc:title>Barbu_2015_Spotting false translation segments in translation memories.pdf</dc:title>
+        <z:linkMode>2</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4565">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>31</prism:volume>
+                <prism:number>3</prism:number>
+                <dc:title>Machine Translation</dc:title>
+                <dc:identifier>DOI 10.1007/s10590-017-9191-5</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Negri</foaf:surname>
+                        <foaf:givenName>Matteo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ataman</foaf:surname>
+                        <foaf:givenName>Duygu</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sabet</foaf:surname>
+                        <foaf:givenName>Masoud Jalili</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Turchi</foaf:surname>
+                        <foaf:givenName>Marco</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Federico</foaf:surname>
+                        <foaf:givenName>Marcello</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_6924"/>
+        <bib:pages>93–115</bib:pages>
+        <dc:date>2017</dc:date>
+        <z:language>en</z:language>
+        <dc:title>Automatic translation memory cleaning</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_6924">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="attachments:Negri et al_2017_Automatic translation memory cleaning.pdf"/>
+        <dc:title>Negri et al_2017_Automatic translation memory cleaning.pdf</dc:title>
+        <z:linkMode>2</z:linkMode>
+        <link:type>application/pdf</link:type>
+        <dc:description>&lt;p xmlns=&quot;http://www.w3.org/1999/xhtml&quot; id=&quot;title&quot;&gt;&lt;strong&gt;Contents&lt;/strong&gt;&lt;/p&gt;&lt;ul xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;list-style-type: none; padding-left:0px&quot; id=&quot;toc&quot;&gt;&lt;li&gt;&lt;a href=&quot;zotero://open-pdf/0_UUIZ7JTS/1&quot;&gt;Abstract&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_UUIZ7JTS/2&quot;&gt;1 Introduction&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_UUIZ7JTS/5&quot;&gt;2 Related work&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:8px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_UUIZ7JTS/7&quot;&gt;3 The TMop tool&lt;/a&gt;&lt;ul style=&quot;list-style-type: none; padding-left:12px&quot;&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_UUIZ7JTS/7&quot;&gt;3.1 Architecture and workflow&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:8px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_UUIZ7JTS/9&quot;&gt;3.2 Filters&lt;/a&gt;&lt;ul style=&quot;list-style-type: none; padding-left:24px&quot;&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_UUIZ7JTS/9&quot;&gt;3.2.1 Basic filters (9 in total)&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_UUIZ7JTS/9&quot;&gt;3.2.2 QE-derived filters (18)&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_UUIZ7JTS/9&quot;&gt;3.2.3 Word-embedding filters (5)&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_UUIZ7JTS/11&quot;&gt;3.3 Policies&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:8px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_UUIZ7JTS/11&quot;&gt;4 Supervised TM cleaning&lt;/a&gt;&lt;ul style=&quot;list-style-type: none; padding-left:12px&quot;&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_UUIZ7JTS/11&quot;&gt;4.1 Approach&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_UUIZ7JTS/11&quot;&gt;4.2 Data&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_UUIZ7JTS/12&quot;&gt;4.3 Evaluation metrics and terms of comparison&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_UUIZ7JTS/13&quot;&gt;4.4 Results&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:8px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_UUIZ7JTS/14&quot;&gt;5 Unsupervised TM cleaning&lt;/a&gt;&lt;ul style=&quot;list-style-type: none; padding-left:12px&quot;&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_UUIZ7JTS/14&quot;&gt;5.1 Approach&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_UUIZ7JTS/15&quot;&gt;5.2 Data&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_UUIZ7JTS/15&quot;&gt;5.3 Evaluation metric and terms of comparison&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_UUIZ7JTS/16&quot;&gt;5.4 Results&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_UUIZ7JTS/18&quot;&gt;5.5 Error analysis&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_UUIZ7JTS/19&quot;&gt;6 Conclusion&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_UUIZ7JTS/21&quot;&gt;Acknowledgements&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_UUIZ7JTS/21&quot;&gt;References&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</dc:description>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4567">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>30</prism:volume>
+                <prism:number>3–4</prism:number>
+                <dc:title>Machine Translation</dc:title>
+                <dcterms:alternative>Machine Translation</dcterms:alternative>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wolff</foaf:surname>
+                        <foaf:givenName>Friedel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_7458"/>
+        <bib:pages>167–181</bib:pages>
+        <dc:date>2016</dc:date>
+        <dcterms:dateSubmitted>2020-01-28 11:38:23</dcterms:dateSubmitted>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:title>Combining off-the-shelf components to clean a translation memory</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_7458">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="attachments:Wolff_2016_Combining off-the-shelf components to clean a translation memory.pdf"/>
+        <dc:title>Wolff_2016_Combining off-the-shelf components to clean a translation memory.pdf</dc:title>
+        <z:linkMode>2</z:linkMode>
+        <link:type>application/pdf</link:type>
+        <dc:description>&lt;p xmlns=&quot;http://www.w3.org/1999/xhtml&quot; id=&quot;title&quot;&gt;&lt;strong&gt;Contents&lt;/strong&gt;&lt;/p&gt;&lt;ul xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;list-style-type: none; padding-left:0px&quot; id=&quot;toc&quot;&gt;&lt;li&gt;&lt;a href=&quot;zotero://open-pdf/0_4GM26DIB/1&quot;&gt;Abstract&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_4GM26DIB/1&quot;&gt;1 Introduction&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_4GM26DIB/2&quot;&gt;2 The problem&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:8px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_4GM26DIB/4&quot;&gt;3 Features&lt;/a&gt;&lt;ul style=&quot;list-style-type: none; padding-left:12px&quot;&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_4GM26DIB/4&quot;&gt;3.1 Length-based features&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_4GM26DIB/5&quot;&gt;3.2 Pofilter&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_4GM26DIB/7&quot;&gt;3.3 Spelling and grammar&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:8px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_4GM26DIB/8&quot;&gt;3.4 Statistical features using external data&lt;/a&gt;&lt;ul style=&quot;list-style-type: none; padding-left:24px&quot;&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_4GM26DIB/8&quot;&gt;3.4.1 Language probability&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_4GM26DIB/10&quot;&gt;3.4.2 Lexical translation choice&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_4GM26DIB/10&quot;&gt;4 Classifier&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_4GM26DIB/11&quot;&gt;5 Feature importance&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_4GM26DIB/13&quot;&gt;6 Results&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_4GM26DIB/14&quot;&gt;7 Conclusion&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_4GM26DIB/14&quot;&gt;Acknowledgements&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_4GM26DIB/15&quot;&gt;References&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</dc:description>
+    </z:Attachment>
+    <bib:Article rdf:about="http://journals.sagepub.com/doi/10.1177/1558689813508226">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1558-6898,%201558-6901"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Moorkens</foaf:surname>
+                        <foaf:givenName>Joss</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_6891"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://journals.sagepub.com/doi/10.1177/1558689813508226</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>31–50</bib:pages>
+        <dc:date>2015</dc:date>
+        <dcterms:dateSubmitted>2020-01-30 10:02:18</dcterms:dateSubmitted>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Consistency in Translation Memory Corpora: A Mixed Methods Case Study</dc:title>
+        <z:shortTitle>Consistency in Translation Memory Corpora</z:shortTitle>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1558-6898,%201558-6901">
+        <prism:volume>9</prism:volume>
+        <prism:number>1</prism:number>
+        <dc:title>Journal of Mixed Methods Research</dc:title>
+        <dc:identifier>ISSN 1558-6898, 1558-6901</dc:identifier>
+        <dcterms:alternative>Journal of Mixed Methods Research</dcterms:alternative>
+        <dc:identifier>DOI 10.1177/1558689813508226</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_6891">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="attachments:Moorkens_2015_Consistency in Translation Memory Corpora.pdf"/>
+        <dc:title>Moorkens_2015_Consistency in Translation Memory Corpora.pdf</dc:title>
+        <z:linkMode>2</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:BookSection rdf:about="#item_4632">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:title>Keynotes 2015. A Review of the TAUS October Events</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Amsterdam</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>TAUS Signature Editions</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                   <foaf:Person><foaf:surname>TAUS</foaf:surname></foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Peng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_7396"/>
+        <bib:pages>11–14</bib:pages>
+        <dc:date>2016</dc:date>
+        <dc:title>The Datafication of Translation</dc:title>
+    </bib:BookSection>
+    <z:Attachment rdf:about="#item_7396">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="attachments:Wang_2016_The Datafication of Translation.pdf"/>
+        <dc:title>Wang_2016_The Datafication of Translation.pdf</dc:title>
+        <z:linkMode>2</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4635">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>14</prism:volume>
+                <prism:number>3</prism:number>
+                <dc:title>Perspectives: Studies in Translation Theory and Practice</dc:title>
+                <dcterms:alternative>Perspectives</dcterms:alternative>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>O'Brien</foaf:surname>
+                        <foaf:givenName>Sharon</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_6959"/>
+        <bib:pages>185–205</bib:pages>
+        <dc:date>2007</dc:date>
+        <dcterms:dateSubmitted>2020-02-28 11:08:22</dcterms:dateSubmitted>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Eye-tracking and translation memory matches</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_6959">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="attachments:O'Brien_2007_Eye-tracking and translation memory matches.pdf"/>
+        <dc:title>O'Brien_2007_Eye-tracking and translation memory matches.pdf</dc:title>
+        <z:linkMode>2</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://aclweb.org/anthology/W18-2709">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.18653/v1/W18-2709</dc:identifier>
+                <dc:title>Proceedings of the 2nd Workshop on Neural Machine Translation and Generation</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Melbourne, Australia</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Association for Computational Linguistics</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Khayrallah</foaf:surname>
+                        <foaf:givenName>Huda</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Koehn</foaf:surname>
+                        <foaf:givenName>Philipp</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_6602"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://aclweb.org/anthology/W18-2709</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>74-83</bib:pages>
+        <dc:date>2018</dc:date>
+        <dcterms:dateSubmitted>2020-03-03 08:15:11</dcterms:dateSubmitted>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>Proceedings of the 2nd Workshop on Neural Machine Translation and Generation</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+        <z:language>en</z:language>
+        <dc:title>On the Impact of Various Types of Noise on Neural Machine Translation</dc:title>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_6602">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="attachments:Khayrallah et al_2018_On the Impact of Various Types of Noise on Neural Machine Translation.pdf"/>
+        <dc:title>Khayrallah et al_2018_On the Impact of Various Types of Noise on Neural Machine Translation.pdf</dc:title>
+        <z:linkMode>2</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:BookSection rdf:about="http://arxiv.org/abs/1803.00047">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dcterms:isPartOf>
+                    <bib:Series>
+                        <dc:title>Proceedings of Machine Learning Research</dc:title>
+                        <dc:identifier>80</dc:identifier>
+                    </bib:Series>
+                </dcterms:isPartOf>
+                <dc:title>Proceedings of the 35th International Conference on Machine Learning</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ott</foaf:surname>
+                        <foaf:givenName>Myle</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Auli</foaf:surname>
+                        <foaf:givenName>Michael</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Grangier</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ranzato</foaf:surname>
+                        <foaf:givenName>Marc'Aurelio</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_4645"/>
+        <link:link rdf:resource="#item_6977"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Computation and Language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1803.00047</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>3956–3965</bib:pages>
+        <dc:date>2018</dc:date>
+        <dc:description>arXiv: 1803.00047</dc:description>
+        <dcterms:dateSubmitted>2020-03-03 08:56:46</dcterms:dateSubmitted>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Analyzing Uncertainty in Neural Machine Translation</dc:title>
+    </bib:BookSection>
+    <bib:Memo rdf:about="#item_4645">
+       <rdf:value>Comment: ICML 2018</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_6977">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="attachments:Ott et al_2018_Analyzing Uncertainty in Neural Machine Translation.pdf"/>
+        <dc:title>Ott et al_2018_Analyzing Uncertainty in Neural Machine Translation.pdf</dc:title>
+        <z:linkMode>2</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:BookSection rdf:about="#item_4646">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+               <dc:title>Maschinelle Übersetzung für Übersetzungsprofis</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Berlin</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>BDÜ Fachverlag</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Porsiel</foaf:surname>
+                        <foaf:givenName>Jörg</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Winter</foaf:surname>
+                        <foaf:givenName>Tom</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zielinski</foaf:surname>
+                        <foaf:givenName>Daniel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_7457"/>
+        <bib:pages>210–233</bib:pages>
+        <dc:date>2020</dc:date>
+        <dc:title>Terminologie in der maschinellen Übersetzung</dc:title>
+    </bib:BookSection>
+    <z:Attachment rdf:about="#item_7457">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="attachments:Winter et al_2020_Terminologie in der maschinellen Übersetzung.pdf"/>
+        <dc:title>Winter et al_2020_Terminologie in der maschinellen Übersetzung.pdf</dc:title>
+        <z:linkMode>2</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:BookSection rdf:about="#item_4678">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dcterms:isPartOf>
+                    <bib:Series>
+                       <dc:title>Data-Centric Systems and Applications</dc:title>
+                    </bib:Series>
+                </dcterms:isPartOf>
+                <dc:title>Data and Information Quality. Dimensions, Principles and Techniques</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Cham</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Springer International Publishing</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Batini</foaf:surname>
+                        <foaf:givenName>Carlo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Scannapieco</foaf:surname>
+                        <foaf:givenName>Monica</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Batini</foaf:surname>
+                        <foaf:givenName>Carlo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Scannapieco</foaf:surname>
+                        <foaf:givenName>Monica</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_5896"/>
+        <bib:pages>19–49</bib:pages>
+        <dc:date>2016</dc:date>
+        <dc:title>Data Quality Dimensions</dc:title>
+    </bib:BookSection>
+    <z:Attachment rdf:about="#item_5896">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="attachments:Batini et al_2016_Data Quality Dimensions.pdf"/>
+        <dc:title>Batini et al_2016_Data Quality Dimensions.pdf</dc:title>
+        <z:linkMode>2</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_4679">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>14</prism:volume>
+                <dc:title>Datenbank-Spektrum</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Scannapieco</foaf:surname>
+                        <foaf:givenName>Monica</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Missier</foaf:surname>
+                        <foaf:givenName>Paolo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Batini</foaf:surname>
+                        <foaf:givenName>Carlo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_7159"/>
+        <bib:pages>6–14</bib:pages>
+        <dc:date>2005</dc:date>
+        <dc:title>Data Quality at a Glance</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_7159">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="attachments:Scannapieco et al_2005_Data Quality at a Glance.pdf"/>
+        <dc:title>Scannapieco et al_2005_Data Quality at a Glance.pdf</dc:title>
+        <z:linkMode>2</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://portal.acm.org/citation.cfm?doid=269012.269022">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:00010782"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Richard Y.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_7397"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://portal.acm.org/citation.cfm?doid=269012.269022</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>58–65</bib:pages>
+        <dc:date>1998</dc:date>
+        <dcterms:dateSubmitted>2020-04-03 13:56:58</dcterms:dateSubmitted>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>A Product Perspective on Total Data Quality Management</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:00010782">
+        <prism:volume>41</prism:volume>
+        <prism:number>2</prism:number>
+        <dc:title>Communications of the ACM</dc:title>
+        <dc:identifier>ISSN 00010782</dc:identifier>
+        <dcterms:alternative>Commun. ACM</dcterms:alternative>
+        <dc:identifier>DOI 10.1145/269012.269022</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_7397">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="attachments:Wang_1998_A Product Perspective on Total Data Quality Management.pdf"/>
+        <dc:title>Wang_1998_A Product Perspective on Total Data Quality Management.pdf</dc:title>
+        <z:linkMode>2</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="urn:isbn:978-0-262-52851-1">
+        <z:itemType>book</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Series>
+               <dc:title>The MIT Press Essential Knowledge series</dc:title>
+            </bib:Series>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Cambridge, London</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>The MIT Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pomerantz</foaf:surname>
+                        <foaf:givenName>Jeffrey</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_7022"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Information organization</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Metadata</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>ISBN 978-0-262-52851-1</dc:identifier>
+        <dc:date>2015</dc:date>
+        <dc:subject>
+           <dcterms:LCC><rdf:value>Z666.7 .P66 2015</rdf:value></dcterms:LCC>
+        </dc:subject>
+        <z:libraryCatalog>Library of Congress ISBN</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>Metadata</dc:title>
+        <z:numPages>239</z:numPages>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_7022">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="attachments:Pomerantz_2015_Metadata.pdf"/>
+        <dc:title>Pomerantz_2015_Metadata.pdf</dc:title>
+        <z:linkMode>2</z:linkMode>
+        <link:type>application/pdf</link:type>
+        <dc:description>&lt;p xmlns=&quot;http://www.w3.org/1999/xhtml&quot; id=&quot;title&quot;&gt;&lt;strong&gt;Contents&lt;/strong&gt;&lt;/p&gt;&lt;ul xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;list-style-type: none; padding-left:0px&quot; id=&quot;toc&quot;&gt;&lt;li&gt;&lt;a href=&quot;zotero://open-pdf/0_55IMW9M9/6&quot;&gt;Contents&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_55IMW9M9/8&quot;&gt;Series Foreword&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_55IMW9M9/10&quot;&gt;Preface&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_55IMW9M9/14&quot;&gt;1 Introduction&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_55IMW9M9/32&quot;&gt;2 Definitions&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_55IMW9M9/78&quot;&gt;3 Descriptive Metadata&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_55IMW9M9/106&quot;&gt;4 Administrative Metadata&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_55IMW9M9/130&quot;&gt;5 Use Metadata&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_55IMW9M9/146&quot;&gt;6 Enabling Technologies for Metadata&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_55IMW9M9/166&quot;&gt;7 The Semantic Web&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_55IMW9M9/200&quot;&gt;8 The Future of Metadata&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_55IMW9M9/222&quot;&gt;Glossary&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_55IMW9M9/228&quot;&gt;Further Readings&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_55IMW9M9/236&quot;&gt;Figure Credits&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_55IMW9M9/238&quot;&gt;Bibliography&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;padding-top:4px&quot;&gt;&lt;a href=&quot;zotero://open-pdf/0_55IMW9M9/246&quot;&gt;Index&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</dc:description>
+    </z:Attachment>
+    <rdf:Description rdf:about="#item_4702">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <dc:title>Proceedings of ACL-2016 System Demonstrations</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Berlin</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Association for Computational Linguistics</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sabet</foaf:surname>
+                        <foaf:givenName>Masoud Jalili</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Negri</foaf:surname>
+                        <foaf:givenName>Matteo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Turchi</foaf:surname>
+                        <foaf:givenName>Marco</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>de Souza</foaf:surname>
+                        <foaf:givenName>José G. C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Federico</foaf:surname>
+                        <foaf:givenName>Marcello</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_7129"/>
+        <bib:pages>49–54</bib:pages>
+        <dc:date>2016</dc:date>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>54th Annual Meeting of the Association for Computational Linguistics</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+        <dc:title>TMop: a Tool for Unsupervised Translation Memory Cleaning</dc:title>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_7129">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="attachments:Sabet et al_2016_TMop.pdf"/>
+        <dc:title>Sabet et al_2016_TMop.pdf</dc:title>
+        <z:linkMode>2</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:BookSection rdf:about="#item_5223">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:title>Translation Quality in the Age of Digital Transformation</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Berlin</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>BDÜ Fachverlag</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dalla-Zuanna</foaf:surname>
+                        <foaf:givenName>Jean-Marc</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kurz</foaf:surname>
+                        <foaf:givenName>Christropher</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zielinski</foaf:surname>
+                        <foaf:givenName>Daniel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Varga</foaf:surname>
+                        <foaf:givenName>Simon</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:pages>300–319</bib:pages>
+        <dc:date>2020</dc:date>
+        <dc:title>Translation memory quality and translation memory management</dc:title>
+    </bib:BookSection>
+    <rdf:Description rdf:about="#item_7689">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Proceedings of the 2nd Workshop on Natural Language Processing for Translation Memories (NLP4TM)</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Portorož, Slovenia</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barbu</foaf:surname>
+                        <foaf:givenName>Eduard</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Escartın</foaf:surname>
+                        <foaf:givenName>Carla Parra</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bentivogli</foaf:surname>
+                        <foaf:givenName>Luisa</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Negri</foaf:surname>
+                        <foaf:givenName>Matteo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Turchi</foaf:surname>
+                        <foaf:givenName>Marco</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Federico</foaf:surname>
+                        <foaf:givenName>Marcello</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mastrostefano</foaf:surname>
+                        <foaf:givenName>Luca</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Orasan</foaf:surname>
+                        <foaf:givenName>Constantin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_8194"/>
+        <bib:pages>1–5</bib:pages>
+        <dc:date>2016</dc:date>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>2nd Workshop on Natural Language Processing for Translation Memories (NLP4TM)</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+        <z:language>en</z:language>
+        <dcterms:abstract>This paper summarizes the work done to prepare the ﬁrst shared task on automatic translation memory cleaning. This shared task aims at ﬁnding automatic ways of cleaning TMs that, for some reason, have not been properly curated and include wrong translations. Participants in this task are required to take pairs of source and target segments from TMs and decide whether they are right translations. For this ﬁrst task three language pairs have been prepared: English → Spanish, English → Italian, and English → German. In this paper, we report on how the shared task was prepared and explain the process of data selection and data annotation, the building of the training and test sets and the implemented baselines for automatic classiﬁers comparison.</dcterms:abstract>
+        <dc:title>1st Shared Task on Automatic Translation Memory Cleaning Preparation and Lessons Learned</dc:title>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_8194">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="attachments:Barbu et al__1st Shared Task on Automatic Translation Memory Cleaning Preparation and.pdf"/>
+        <dc:title>Barbu et al__1st Shared Task on Automatic Translation Memory Cleaning Preparation and.pdf</dc:title>
+        <z:linkMode>2</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.degruyter.com/document/doi/10.1515/les-2022-1022/html">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1868-0267,%200023-9909"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Krüger</foaf:surname>
+                        <foaf:givenName>Ralph</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_8553"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.degruyter.com/document/doi/10.1515/les-2022-1022/html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>247–282</bib:pages>
+        <dc:date>2022</dc:date>
+        <dcterms:dateSubmitted>2024-01-22 06:51:58</dcterms:dateSubmitted>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dcterms:abstract>Abstract
+            The data-driven paradigm of neural machine translation is a powerful translation technology based on state-of-the art approaches in artificial intelligence research. This technology is employed extensively in the professional translation process, requiring an adequate degree of machine translation literacy on the part of professional translators. At the same time, the increasing datafication to be observed in modern society – both in private as well as in professional contexts – contributes to the rise in prominence of another digital literacy, i. e., data literacy, which is also of high relevance with regard to data-driven machine translation. The present paper analyses and discusses in detail the individual dimensions and subdimensions of professional machine translation literacy and data literacy and attempts to integrate the two concepts. It thereby lays the theoretical foundation for a didactic project concerned with teaching data literacy in its machine translation-specific form to students in the fields of translation and specialised communication studies.</dcterms:abstract>
+        <dc:title>Integrating professional machine translation literacy and data literacy</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1868-0267,%200023-9909">
+        <prism:volume>67</prism:volume>
+        <prism:number>2</prism:number>
+        <dc:title>Lebende Sprachen</dc:title>
+        <dc:identifier>ISSN 1868-0267, 0023-9909</dc:identifier>
+        <dc:identifier>DOI 10.1515/les-2022-1022</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_8553">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="attachments:Krüger_2022_Integrating professional machine translation literacy and data literacy.pdf"/>
+        <dc:title>Krüger_2022_Integrating professional machine translation literacy and data literacy.pdf</dc:title>
+        <z:linkMode>2</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:BookSection rdf:about="#item_9292">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:title>The Routledge Encyclopedia of Translation Technology</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Oxon, New York</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Routledge</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chan</foaf:surname>
+                        <foaf:givenName>Sin-wai</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chan</foaf:surname>
+                        <foaf:givenName>Sin-wai</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>Translation</dc:subject>
+        <dc:subject>Handbuch</dc:subject>
+        <dc:subject>Translation technology</dc:subject>
+        <bib:pages>32–67</bib:pages>
+        <dc:date>2015</dc:date>
+        <dc:title>Computer-aided translation: major concepts</dc:title>
+    </bib:BookSection>
+    <bib:BookSection rdf:about="urn:isbn:978-1-138-23284-6">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dcterms:isPartOf>
+                    <bib:Series>
+                        <dc:title>Routledge Handbooks in Translation and Interpreting Studies</dc:title>
+                    </bib:Series>
+                </dcterms:isPartOf>
+                <dc:identifier>ISBN 978-1-138-23284-6</dc:identifier>
+                <dc:title>The Routledge Handbook of Translation and Technology</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>London, New York</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Routledge</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>O'Hagan</foaf:surname>
+                        <foaf:givenName>Minako</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Roturier</foaf:surname>
+                        <foaf:givenName>Johann</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Machine translating</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Technological innovations</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Translating and interpreting</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <bib:pages>45–60</bib:pages>
+        <dc:date>2020</dc:date>
+        <dc:subject>
+           <dcterms:LCC><rdf:value>P306.97.T73 .R69 2020</rdf:value></dcterms:LCC>
+        </dc:subject>
+        <z:libraryCatalog>Library of Congress ISBN</z:libraryCatalog>
+        <z:language>en</z:language>
+        <dc:title>XML for translation technology</dc:title>
+    </bib:BookSection>
+    <bib:BookSection rdf:about="#item_9295">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:title>Verschmitzt! Von Terminologie und Terminologen. Festschrift für Klaus-Dirk Schmitz</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Berlin</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Frank &amp; Timme</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ahrens</foaf:surname>
+                        <foaf:givenName>Barbara</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Link</foaf:surname>
+                        <foaf:givenName>Lisa</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schilly</foaf:surname>
+                        <foaf:givenName>Ute Barbara</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wienen</foaf:surname>
+                        <foaf:givenName>Ursula</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wright</foaf:surname>
+                        <foaf:givenName>Sue Ellen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dcterms:isReferencedBy rdf:resource="#item_9296"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computational linguistics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Germany</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Terms and phrases</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>History</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Biography</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Translating and interpreting</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>German language</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Bibliography</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Schmitz, Klaus-Dirk</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Terminologists</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <bib:pages>223–241</bib:pages>
+        <dc:date>2018</dc:date>
+        <dc:subject>
+           <dcterms:LCC><rdf:value>P305 .V47 2018</rdf:value></dcterms:LCC>
+        </dc:subject>
+        <dc:description>OCLC: on1051234509</dc:description>
+        <z:libraryCatalog>Library of Congress ISBN</z:libraryCatalog>
+        <dc:title>TBX Dialects. Making Exchange Work for You</dc:title>
+    </bib:BookSection>
+   <bib:Memo rdf:about="#item_9296"><rdf:value>Festschrift</rdf:value></bib:Memo>
+    <rdf:Description rdf:about="https://www.gala-global.org/tmx-14b">
+        <z:itemType>standard</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Localization Industry Standards Association</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.gala-global.org/tmx-14b</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2005</dc:date>
+        <dcterms:dateSubmitted>2024-09-11</dcterms:dateSubmitted>
+        <dc:title>TMX 1.4b Specification</dc:title>
+    </rdf:Description>
+    <bib:Book rdf:about="#item_9298">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Carmel, Indiana</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Sams</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Savourel</foaf:surname>
+                        <foaf:givenName>Yves</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2001</dc:date>
+        <dc:title>XML Internationalization and Localization</dc:title>
+    </bib:Book>
+    <rdf:Description rdf:about="http://aclweb.org/anthology/D18-1045">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.18653/v1/D18-1045</dc:identifier>
+                <dc:title>Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Brussels, Belgium</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Association for Computational Linguistics</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Edunov</foaf:surname>
+                        <foaf:givenName>Sergey</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ott</foaf:surname>
+                        <foaf:givenName>Myle</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Auli</foaf:surname>
+                        <foaf:givenName>Michael</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Grangier</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://aclweb.org/anthology/D18-1045</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>489-500</bib:pages>
+        <dc:date>2018</dc:date>
+        <dcterms:dateSubmitted>2024-10-26 10:50:24</dcterms:dateSubmitted>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+        <z:language>en</z:language>
+        <dcterms:abstract>An effective method to improve neural machine translation with monolingual data is to augment the parallel training corpus with back-translations of target language sentences. This work broadens the understanding of back-translation and investigates a number of methods to generate synthetic source sentences. We ﬁnd that in all but resource poor settings back-translations obtained via sampling or noised beam outputs are most effective. Our analysis shows that sampling or noisy synthetic data gives a much stronger training signal than data generated by beam or greedy search. We also compare how synthetic data compares to genuine bitext and study various domain effects. Finally, we scale to hundreds of millions of monolingual sentences and achieve a new state of the art of 35 BLEU on the WMT’14 English-German test set.</dcterms:abstract>
+        <dc:title>Understanding Back-Translation at Scale</dc:title>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.aclweb.org/anthology/D19-5217">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.18653/v1/D19-5217</dc:identifier>
+                <dc:title>Proceedings of the 6th Workshop on Asian Translation</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Hong Kong</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Association for Computational Linguistics</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Imamura</foaf:surname>
+                        <foaf:givenName>Kenji</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sumita</foaf:surname>
+                        <foaf:givenName>Eiichiro</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_9320"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.aclweb.org/anthology/D19-5217</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>141–146</bib:pages>
+        <dc:date>2019</dc:date>
+        <dcterms:dateSubmitted>2024-10-26 11:00:13</dcterms:dateSubmitted>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <bib:presentedAt>
+            <bib:Conference>
+               <dc:title>6th Workshop on Asian Translation</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+        <z:language>en</z:language>
+        <dcterms:abstract>This paper describes the NICT-2 neural machine translation system at the 6th Workshop on Asian Translation. This system employs the standard Transformer model but features the following two characteristics. One is the long warm-up strategy, which performs a longer warm-up of the learning rate at the start of the training than conventional approaches. Another is that the system introduces self-training approaches based on multiple back-translations generated by sampling. We participated in three tasks—ASPEC.enja, ASPEC.ja-en, and TDDC.ja-en—using this system.</dcterms:abstract>
+        <dc:title>Long Warm-up and Self-Training: Training Strategies of NICT-2 NMT System at WAT-2019</dc:title>
+        <z:shortTitle>Long Warm-up and Self-Training</z:shortTitle>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_9320">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="attachments:Imamura et al_2019_Long Warm-up and Self-Training.pdf"/>
+        <dc:title>Imamura et al_2019_Long Warm-up and Self-Training.pdf</dc:title>
+        <z:linkMode>2</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://aclweb.org/anthology/P16-1009">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>DOI 10.18653/v1/P16-1009</dc:identifier>
+                <dc:title>Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Berlin</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Association for Computational Linguistics</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sennrich</foaf:surname>
+                        <foaf:givenName>Rico</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Haddow</foaf:surname>
+                        <foaf:givenName>Barry</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Birch</foaf:surname>
+                        <foaf:givenName>Alexandra</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_9324"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://aclweb.org/anthology/P16-1009</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>86–96</bib:pages>
+        <dc:date>2016</dc:date>
+        <dcterms:dateSubmitted>2024-10-26 11:03:03</dcterms:dateSubmitted>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>54th Annual Meeting of the Association for Computational Linguistics</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+        <z:language>en</z:language>
+        <dcterms:abstract>Neural Machine Translation (NMT) has obtained state-of-the art performance for several language pairs, while only using parallel data for training. Targetside monolingual data plays an important role in boosting ﬂuency for phrasebased statistical machine translation, and we investigate the use of monolingual data for NMT. In contrast to previous work, which combines NMT models with separately trained language models, we note that encoder-decoder NMT architectures already have the capacity to learn the same information as a language model, and we explore strategies to train with monolingual data without changing the neural network architecture. By pairing monolingual training data with an automatic backtranslation, we can treat it as additional parallel training data, and we obtain substantial improvements on the WMT 15 task English↔German (+2.8–3.7 BLEU), and for the low-resourced IWSLT 14 task Turkish→English (+2.1–3.4 BLEU), obtaining new state-of-the-art results. We also show that ﬁne-tuning on in-domain monolingual and parallel data gives substantial improvements for the IWSLT 15 task English→German.</dcterms:abstract>
+        <dc:title>Improving Neural Machine Translation Models with Monolingual Data</dc:title>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_9324">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="attachments:Sennrich et al_2016_Improving Neural Machine Translation Models with Monolingual Data.pdf"/>
+        <dc:title>Sennrich et al_2016_Improving Neural Machine Translation Models with Monolingual Data.pdf</dc:title>
+        <z:linkMode>2</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="#item_9343">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>Proceedings of SSST-6</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Jeju, Korea</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Association for Computational Linguistics</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wetzel</foaf:surname>
+                        <foaf:givenName>Dominikus</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bond</foaf:surname>
+                        <foaf:givenName>Francis</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_9342"/>
+        <bib:pages>20–29</bib:pages>
+        <dc:date>2012</dc:date>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+        <bib:presentedAt>
+            <bib:Conference>
+                <dc:title>Sixth Workshop on Syntax, Semantics and Structure in Statistical Translation</dc:title>
+            </bib:Conference>
+        </bib:presentedAt>
+        <z:language>en</z:language>
+        <dcterms:abstract>This paper presents an approach to improving performance of statistical machine translation by automatically creating new training data for difﬁcult to translate phenomena. In particular this contribution is targeted towards tackling the poor performance of a state-of-the-art system on negated sentences. The corpus expansion is achieved by high quality rephrasing of existing sentences to their negated counterparts making use of semantic transfer. The method is designed to work on both sides of the parallel corpus while preserving the alignment. Our results show an overall improvement of 0.16 BLEU points, with a statistically signiﬁcant increase of 1.63 BLEU points when tested on only negated test data.</dcterms:abstract>
+        <dc:title>Enriching Parallel Corpora for Statistical Machine Translation with Semantic Negation Rephrasing</dc:title>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_9342">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="attachments:Wetzel et al_2012_Enriching Parallel Corpora for Statistical Machine Translation.pdf"/>
+        <dc:title>Wetzel et al_2012_Enriching Parallel Corpora for Statistical Machine Translation.pdf</dc:title>
+        <z:linkMode>2</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="urn:isbn:978-1-985752-92-4">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Germany</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Self-published</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rudd</foaf:surname>
+                        <foaf:givenName>Anthony</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <prism:edition>4th edition</prism:edition>
+        <dc:identifier>ISBN 978-1-985752-92-4</dc:identifier>
+        <dc:date>2018</dc:date>
+        <dc:description>OCLC: 1202251692</dc:description>
+        <z:libraryCatalog>Open WorldCat</z:libraryCatalog>
+        <z:language>eng</z:language>
+        <dc:title>Practical Usage of Regular Expressions. An introduction to regexes for translators</dc:title>
+        <z:shortTitle>Practical Usage of Regular Expressions</z:shortTitle>
+    </bib:Book>
+    <bib:Article rdf:about="https://www.tcworld.info/e-magazine/translation-and-localization/super-charge-your-language-data-with-and-for-ai-1318">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <prism:volume>April 2024</prism:volume><dc:title>tcworld</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zielinski</foaf:surname>
+                        <foaf:givenName>Daniel</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Varga</foaf:surname>
+                        <foaf:givenName>Simon</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_9353"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.tcworld.info/e-magazine/translation-and-localization/super-charge-your-language-data-with-and-for-ai-1318</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>30–34</bib:pages>
+        <dc:date>2024</dc:date>
+        <dc:title>Super-charge your language data with and for AI</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_9353">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="attachments:Zielinski et al_2024_Super-charge your language data with and for AI.pdf"/>
+        <dc:title>Zielinski et al_2024_Super-charge your language data with and for AI.pdf</dc:title>
+        <z:linkMode>2</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+</rdf:RDF>

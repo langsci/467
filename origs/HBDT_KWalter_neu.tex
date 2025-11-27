@@ -1,0 +1,584 @@
+% This file was converted to LaTeX by Writer2LaTeX ver. 1.4
+% see http://writer2latex.sourceforge.net for more info
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb,amsfonts,textcomp}
+\usepackage{array}
+\usepackage{supertabular}
+\usepackage{hhline}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=blue, citecolor=blue, filecolor=blue, urlcolor=blue}
+% footnotes configuration
+\makeatletter
+\renewcommand\thefootnote{\arabic{footnote}}
+\makeatother
+% Text styles
+\newcommand\textstyleListLabelcxc[1]{\textbf{#1}}
+\newcommand\textstyleListLabelcxci[1]{#1}
+\newcommand\textstyleListLabelcxcii[1]{#1}
+\newcommand\textstyleListLabelcxciii[1]{#1}
+\makeatletter
+\newcommand\arraybslash{\let\\\@arraycr}
+\makeatother
+\raggedbottom
+% Paragraph styles
+\renewcommand\familydefault{\rmdefault}
+\newenvironment{styleStandard}{\setlength\leftskip{0cm}\setlength\rightskip{0cm plus 1fil}\setlength\parindent{0cm}\setlength\parfillskip{0pt plus 1fil}\setlength\parskip{0in plus 1pt}\writerlistparindent\writerlistleftskip\leavevmode\normalfont\normalsize\writerlistlabel\ignorespaces}{\unskip\vspace{0in plus 1pt}\par}
+\newenvironment{styleListParagraph}{\setlength\leftskip{0.5in}\setlength\rightskip{0in plus 1fil}\setlength\parindent{0in}\setlength\parfillskip{0pt plus 1fil}\setlength\parskip{0in plus 1pt}\writerlistparindent\writerlistleftskip\leavevmode\normalfont\normalsize\writerlistlabel\ignorespaces}{\unskip\vspace{0in plus 1pt}\par}
+% List styles
+\newcommand\writerlistleftskip{}
+\newcommand\writerlistparindent{}
+\newcommand\writerlistlabel{}
+\newcommand\writerlistremovelabel{\aftergroup\let\aftergroup\writerlistparindent\aftergroup\relax\aftergroup\let\aftergroup\writerlistlabel\aftergroup\relax}
+\newcounter{listWWNumxxiileveli}
+\newcounter{listWWNumxxiilevelii}[listWWNumxxiileveli]
+\newcounter{listWWNumxxiileveliii}[listWWNumxxiilevelii]
+\newcounter{listWWNumxxiileveliv}[listWWNumxxiileveliii]
+\renewcommand\thelistWWNumxxiileveli{\arabic{listWWNumxxiileveli}}
+\renewcommand\thelistWWNumxxiilevelii{\arabic{listWWNumxxiileveli}.\arabic{listWWNumxxiilevelii}}
+\renewcommand\thelistWWNumxxiileveliii{\arabic{listWWNumxxiileveli}.\arabic{listWWNumxxiilevelii}.\arabic{listWWNumxxiileveliii}}
+\renewcommand\thelistWWNumxxiileveliv{\arabic{listWWNumxxiileveli}.\arabic{listWWNumxxiilevelii}.\arabic{listWWNumxxiileveliii}.\arabic{listWWNumxxiileveliv}}
+\newcommand\labellistWWNumxxiileveli{\textstyleListLabelcxc{\thelistWWNumxxiileveli.}}
+\newcommand\labellistWWNumxxiilevelii{\textstyleListLabelcxci{\thelistWWNumxxiilevelii.}}
+\newcommand\labellistWWNumxxiileveliii{\textstyleListLabelcxcii{\thelistWWNumxxiileveliii.}}
+\newcommand\labellistWWNumxxiileveliv{\textstyleListLabelcxciii{\thelistWWNumxxiileveliv.}}
+\newenvironment{listWWNumxxiileveli}{\def\writerlistleftskip{\setlength\leftskip{0.5in}}\def\writerlistparindent{}\def\writerlistlabel{}\def\item{\def\writerlistparindent{\setlength\parindent{-0.25in}}\def\writerlistlabel{\stepcounter{listWWNumxxiileveli}\makebox[0cm][l]{\labellistWWNumxxiileveli}\hspace{-0.635cm}\writerlistremovelabel}}}{}
+\newenvironment{listWWNumxxiilevelii}{\def\writerlistleftskip{\setlength\leftskip{0.75in}}\def\writerlistparindent{}\def\writerlistlabel{}\def\item{\def\writerlistparindent{\setlength\parindent{-0.5in}}\def\writerlistlabel{\stepcounter{listWWNumxxiilevelii}\makebox[0cm][l]{\labellistWWNumxxiilevelii}\hspace{-0.635cm}\writerlistremovelabel}}}{}
+\newenvironment{listWWNumxxiileveliii}{\def\writerlistleftskip{\setlength\leftskip{0.75in}}\def\writerlistparindent{}\def\writerlistlabel{}\def\item{\def\writerlistparindent{\setlength\parindent{-0.5in}}\def\writerlistlabel{\stepcounter{listWWNumxxiileveliii}\makebox[0cm][l]{\labellistWWNumxxiileveliii}\hspace{-0.635cm}\writerlistremovelabel}}}{}
+\newenvironment{listWWNumxxiileveliv}{\def\writerlistleftskip{\setlength\leftskip{1in}}\def\writerlistparindent{}\def\writerlistlabel{}\def\item{\def\writerlistparindent{\setlength\parindent{-0.75in}}\def\writerlistlabel{\stepcounter{listWWNumxxiileveliv}\makebox[0cm][l]{\labellistWWNumxxiileveliv}\hspace{-0.635cm}\writerlistremovelabel}}}{}
+\setlength\tabcolsep{1mm}
+\renewcommand\arraystretch{1.3}
+\title{}
+\author{Katharina Mara Walter}
+\date{2024-11-22}
+\begin{document}
+\begin{styleStandard}
+\textbf{\textit{Handbuch Digitale Translatologie}}
+\end{styleStandard}
+
+\begin{styleStandard}
+\textbf{(Felix Hoberg, Martin Kappus und Oliver Czulo, IALT, Universität Leipzig)}
+\end{styleStandard}
+
+\begin{styleStandard}
+\textbf{Beitragsvorschlag von Dr. Katharina Walter, MA, Universität Innsbruck, ORCID: }\url{https://orcid.org/0009-0007-8042-1145}
+\end{styleStandard}
+
+\begin{styleStandard}
+\textbf{Literarisches Übersetzen im Zeitalter der künstlichen Intelligenz:}
+\end{styleStandard}
+
+\begin{styleStandard}
+\textbf{Möglichkeiten und Grenzen teilautomatisierter Arbeitsprozesse}
+\end{styleStandard}
+
+
+\setcounter{listWWNumxxiileveli}{0}
+\begin{listWWNumxxiileveli}
+\item 
+\begin{styleListParagraph}
+\textbf{Einleitung}
+\end{styleListParagraph}
+\end{listWWNumxxiileveli}
+\begin{styleStandard}
+Obgleich man noch vor wenigen Jahren annahm, dass sich das literarische Übersetzen der Automatisierung weitgehend entziehen würde, haben neuronale maschinelle Übersetzungssysteme (NMÜ-Systeme) wie DeepL und Large Language Models (LLMs) wie ChatGPT längst auch in diese Domäne Einzug gehalten. Abgesehen von einer stetig wachsenden Anzahl an Publikationen zur teilautomatisierten literarischen Übersetzung (siehe beispielsweise Adhikari 2018; Hadley 2019; Kolb et al. 2023; Macken et al. 2022; Taivalkoski-Shilov 2019) dokumentieren diese Veränderung auch die Webauftritte mancher Verlagshäuser. Rossum Press beispielsweise bewirbt Übersetzungen literarischer Texte, die aufgrund einer effizienten Verknüpfung von KI-Anwendungen und Post-Editing in Teamarbeit nur einen Bruchteil von konventionell erstellten literarischen Übersetzungen kosten sollen. Der Verlag stellt außerdem in Aussicht, aufgrund moderner, technologiegestützter Arbeitsprozesse mehr Übersetzungen auf den Markt bringen zu können als andere Anbieter, und zwar ohne Qualitätseinbußen und ohne die Originalautor:innen finanziell im selben Maße zu belasten, wie das im Falle althergebrachter literarischer Humanübersetzungen erforderlich wäre (Rossum Press 2023).\footnote{\ Im Originalwortlaut heißt es: „Using a system of AI-assisted team translation, our skilled editors are able to create high quality literary translations with a fraction of the resources which traditional methods require.\par Every word of the AI-generated draft translation is carefully weighed by a professional stylist of the target language, and we work closely with our authors at every step along the way.\par This novel translation method means that we can bring readers more titles than conventional publishers of translated fiction, while taking a much smaller slice of the pie away from authors.“ (Rossum Press 2023)\par } 
+\end{styleStandard}
+
+\begin{styleStandard}
+Wenn man den Versprechungen von Rossum Press Glauben schenken möchte, kann man davon ausgehen, dass die reine Humanübersetzung literarischer Texte bald Geschichte sein wird. Auch wenn KI-Anwendungen die literarische Übersetzung schon verändert haben und auch weiter verändern werden, darf man jedoch bezweifeln, dass es möglich ist, maschinell vorübersetzte literarische Texte in Teamarbeit und mit einem Bruchteil der vormals erforderlichen Ressourcen so zu verbessern, dass diese mit qualitativ hochwertigen Humanübersetzungen auch nur annähernd mithalten können. Bisherige wissenschaftliche Publikationen zur (teil-)automatisierten Übersetzung literarischer Texte deuten ebenso wie die hier besprochenen Textbeispiele von Virginia Woolf (1921) und Séamus Ó Conaill (2018) darauf hin, dass Humanübersetzer:innen bei der Anpassung literarischer Texte für die zielsprachlichen und -kulturellen Gegebenheiten weiterhin federführend sein müssen.
+\end{styleStandard}
+
+\begin{styleStandard}
+Nach einer knappen Einführung in Gemeinsamkeiten und Unterschiede von NMÜ-Systemen wie DeepL im Vergleich zu LLMs wie ChatGPT aus translatorischer Sicht beleuchtet dieser Beitrag anhand zweier konkreter Textbeispiele und unter Einbeziehung einschlägiger wissenschaftlicher Publikationen mögliche Vor- und Nachteile beider Arten von Anwendungen für das literarische Übersetzen. Abgesehen von den potenziellen Aufgaben von Menschen in Gegenüberstellung zu Maschinen im literarischen Übersetzen der Zukunft steht dabei auch die Frage im Raum, welche Rolle NMÜ-Systeme künftig im Vergleich zu LLMs einnehmen könnten. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Allgemein bleibt beim literarischen Übersetzen bislang ungeklärt, ob der Nutzen, der sich durch eine mögliche Produktivitätssteigerung aufgrund von KI-generierten Rohübersetzungen ergibt, die Nachteile aufwiegt, welche zum Beispiel durch das so genannte „Priming“ (siehe beispielsweise Kolb 2022, 20) bzw. die Einschränkung der Vielfalt an Übersetzungsmöglichkeiten durch den Einfluss der maschinellen Ausgabe entstehen können. Unter anderem wird in diesem Beitrag untersucht, ob (teil-)automatisierte literarische Übersetzungen die Kreativität und damit auch die Qualität literarischer Zieltexte verringern, indem sie zu homogeneren Übersetzungen führen, als sie Menschen ohne maschinelle Unterstützung anfertigen würden, oder ob KI-Anwendungen im Gegenteil die Kreativität auch fördern können. Dies wäre denkbar, wenn es Humanübersetzer:innen aufgrund von KI-generierten Rohfassungen beispielsweise möglich wäre, sich primär auf fordernde Textabschnitte zu konzentrieren. Auch könnte die Tendenz von KI-Systemen, lexikalische und syntaktische Phänomäne im Ausgangstext in einer Übersetzung zu reproduzieren, Post-Editor:innen vielleicht sogar dazu ermutigten, wörtlichere Übersetzungen unkonventioneller Ausdrücke zu verwenden, als es Humanübersetzer:innen normalerweise tun. So haben Kolb et al. (2023) in ihrer Untersuchung einiger von Menschen und Maschinen übersetzten englischsprachigen Versionen von Nestroys Stück \textit{Der Talisman} (1840) festgestellt, dass NMÜ-Systeme wie DeepL und Google~Translate manchmal wörtliche und damit neuartige zielsprachliche Äquivalente für Okkasionalismen anbieten. Dabei handelt es sich um Neologismen, die Nestroy oft nur einmal verwendete und für die Humanübersetzer:innen meist normalisierende Äquivalente wählten. Andere Studien über literarische Prosa (Kolb 2023; Guerberof-Arenas und Toral 2022 und 2024) kamen jedoch zum Schluss, dass nachbearbeitete Texte insgesamt weniger kreativ seien und ihre Leser:innen auch weniger ansprechen würden als Humanübersetzungen. In diesem Beitrag wird übersetzerische Kreativität mit Bayer-Hohenwarter als eine Manifestation so genannter „creative shifts” bzw. „kreativer Verschiebungen“ definiert, die auftreten, wenn Übersetzer:innen ihre Ausgangstexte etwa lexikalisch, grammatikalisch oder syntaktisch umgestalten (2011, S. 669). Auch das von Guerberof-Arenas und Toral (2022, S. 3) diskutierte Zusammenspiel zwischen den einzelnen Dimensionen der Akzeptanz oder Zweckmäßigkeit, der Flexibilität oder Neigung zu kreativen Verschiebungen, der Neuartigkeit oder Einzigartigkeit und der Geläufigkeit oder Neigung zu reproduktiven Strategien in einer Übersetzung spielt bei der Analyse ausgewählter Textpassagen eine Rolle.
+\end{styleStandard}
+
+\begin{styleStandard}
+Ganz allgemein werfen einige KI-kritische Publikationen in und außerhalb von Translationskontexten die Frage auf, ob KI-generierte oder KI-übersetzte Texte möglicherweise einen wesentlichen Grund für menschliches kreatives Schaffen, wozu auch das Übersetzen literarischer Texte gehört, \textit{ad absurdum }führen. Der diesem menschlichen kreativen Schaffen zugrundeliegende Prozess stehe nämlich seit jeher auch mit der Suche nach Antworten auf fundamentale Fragen der Menschheit in Verbindung – mit einer Aufgabe also, die nicht von Maschinen übernommen werden könne (siehe Mjölsnes 2022, 65; Kissinger et al. 2021, 52). Diese zentralen Fragen zu gesellschaftlichen Auswirkungen einer Teilautomatisierung literarischer Übersetzungsprozesse sollen in diesem Beitrag nicht außer Acht gelassen werden, obgleich es schwierig erscheint, darauf eindeutige Antworten zu geben.
+\end{styleStandard}
+
+\begin{listWWNumxxiileveli}
+\item 
+\begin{styleListParagraph}
+\textbf{NMÜ-Systeme und LLMs: Gemeinsamkeiten und Unterschiede aus technologischer und translatorischer Sicht}
+\end{styleListParagraph}
+\end{listWWNumxxiileveli}
+\begin{styleStandard}
+Bislang ist man in der Sprachtechnologieforschung uneins, ob so genannte General-Purpose LLMs wie ChatGPT mittelfristig NMÜ-Systeme wie DeepL ersetzen könnten. Dafür sprechen etwa laut Lee nicht nur die größeren Kontextfenster und die dadurch tendenziell bessere Textkohäsion in der maschinellen Ausgabe, sondern auch die ausgeprägte Flexibilität von LLMs, etwa im Hinblick auf die Anpassung stilistischer Textmerkmale im Zuge einer Übersetzung. Ein dezidierter Nachteil von LLMs gegenüber NMÜ-Systemen sei jedoch, dass aufgrund ebendieser höheren gestalterischen Flexibilität im Bereich der Textausgabe die Wiederholbarkeit von Übersetzungsprozessen in identischer oder zumindest sehr ähnlicher Weise nicht wie bei der Verwendung von NMÜ-Systemen gewährleistet werden könne (Lee 2023, 4–12). Auch Lommel kommt auf der Grundlage eines Vergleichs der Übersetzungsleistung von Google~Translate mit jener von ChatGPT~4.0 zum Schluss, dass LLMs wahrscheinlich NMÜ-Systeme nicht ersetzen werden, sondern vielmehr einen Anreiz für Unternehmen darstellen, diese zu verbessern. Ein mögliches Beispiel für eine solche Verbesserung wäre laut Lommel die Erweiterung der Kontextfenster in der NMÜ hin zu größeren Einheiten, also Absätzen statt bisher Sätzen. Obwohl die Übersetzungsergebnisse unter Verwendung von ChatGPT in Bezug auf die Textkohäsion möglicherweise besser seien und man mithilfe aufgabenspezifischer Prompts auch einen größeren Gestaltungsspielraum habe, betont Lommel, dass NMÜ-Systeme schneller übersetzen würden, einfacher zu trainieren und auch kostengünstiger seien als LLMs. Außerdem ließen sich NMÜ-Systeme besser mit CAT-Tools und anderen sprachtechnologischen Anwendungen kombinieren, und die Sicherheit der in NMÜ-Systeme eingespeisten Daten sei leichter zu gewährleisten (2023). Es ist bekannt, dass beispielsweise DeepL bei Verwendung einer kostenpflichtigen Version seines Übersetzungssystems auf die Speicherung von Texteingaben zu Trainingszwecken verzichtet, während die Transparenz gängiger LLMs im Hinblick auf Datenschutz- und Urheberrechtsfragen bisher zu wünschen übrig lässt. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Ein kurz- oder mittelfristiges Verschwinden der NMÜ zugunsten von LLMs als Übersetzungsmaschinen ist daher angesichts der aktuellen Entwicklungen eher nicht zu erwarten. Das hängt nicht nur damit zusammen, dass z.~B. DeepL als einer der international führenden Anbieter im Bereich NMÜ seinen Kund:innen seit kurzem für einige Sprachkombinationen und in kostenpflichtigen Versionen Übersetzungsdienstleistungen mit eigenem LLM anbietet (DeepL 2024) und sich damit wohl für die nächste Zeit einen Platz unter den führenden KI-Unternehmen im Sprachdienstleistungssektor gesichert hat. Auch wenn wegen der großen Umwälzungen, die LLMs jüngst in vielen Bereichen der Alltags- und Berufswelt bewirkt haben, jede Prognose wohl mit Vorsicht zu genießen ist, sieht es derzeit so aus, als würden NMÜ-Systeme weiterhin ein wichtiges Hilfsmittel für die literarische Übersetzung im Allgemeinen bleiben, während LLMs sich vor allem als Inspirationsquelle für die Übersetzung besonders experimenteller Textpassagen oder auch in gebundener Rede verfasster Texte eignen. Letzteres soll am Beispiel eines Reims aus einem zeitgenössischen irischen Kinderbuch verdeutlicht werden. 
+\end{styleStandard}
+
+\begin{styleStandard}
+An dieser Stelle erscheint es angebracht, NMÜ-Systeme und LLMs hinsichtlich ihrer Übersetzungsleistung in groben Zügen zu vergleichen. NMÜ-Systeme wie DeepL oder Google~Translate erstellen die bestmögliche Übersetzung jedes Eingabesegments auf der Grundlage der habituellen Nähe von Wörtern in der Ausgangssprache im Vergleich zur habituellen Nähe von Wörtern in der Zielsprache. Das 2017 eingeführte Transformer-Modell, das aus einem Encoder und einem Decoder besteht, ist derzeit die beliebteste Architektur in der NMÜ. Nach der Umwandlung der quellsprachlichen Eingabe in Vektoren im Encoder wird im Decoder durch eine erneute Umwandlung von Vektoren in Text eine zielsprachliche Ausgabe generiert (Rothwell et al. 2023, 104). Im Gegensatz zur seriellen Textverarbeitung der Vorgängermodelle bewirkt der Aufmerksamkeitsmechanismus, dass der Transformer zuerst das Wichtigste im Text erfasst, weshalb auch längere Sätze inzwischen immer besser übersetzt werden können (Siegel 2023, 313-4). Die Leistung gängiger NMÜ-Systeme ist zumindest für ressourcenreiche Sprachen wie Englisch, Russisch oder Deutsch inzwischen beachtlich. Dennoch bereiten Übersetzungsfehler, terminologische Inkonsistenzen, die Voreingenommenheit der Trainingsdaten (Rothwell et al. 2023, 105), ein weniger nuanciertes Sprachregister in der NMÜ-Ausgabe und eine Reduktion der lexikalischen Vielfalt im Vergleich zu den eingespeisten Ausgangstexten weiterhin Probleme. Letzteres Phänomen kann vor allem in der literarischen Übersetzung, bei der sowohl Textinhalt als auch Textform eine wesentliche Rolle spielen, zu Qualitätseinbußen führen, da eine stilistische Vereinheitlichung von Übersetzungen unumgänglich ist, sofern keine umfangreiche Nachbearbeitung erfolgt.
+\end{styleStandard}
+
+\begin{styleStandard}
+LLMs wie ChatGPT wurden nicht zum Übersetzen entwickelt, aber es hat sich schnell gezeigt, dass mit ihrer Hilfe Übersetzungen von ähnlicher Qualität wie mit NMÜ-Systemen erstellt werden können. Eine Gegenüberstellung von NMÜ-Systemen und LLMs hinsichtlich ihrer Architektur und Leistungsfähigkeit durch Hendy et al. gibt Einblicke in die Möglichkeiten und Grenzen beider Systemtypen, die auch für die Übersetzungspraxis aufschlussreich sein können. Beide Anwendungstypen basieren auf der von Vaswani et al. 2017 vorgestellten Transformer-Architektur, wobei LLMs nicht die bei NMÜ-Systemen übliche Zweiteilung in Encoder versus Decoder aufweisen, sondern nur mit einem Decoder ausgestattet sind. In diesem Zusammenhang ist auch relevant, dass LLMs im Gegensatz zu NMÜ-Systemen nicht mit mehrsprachigen, parallelen Korpora trainiert werden, sondern mit einsprachigen Daten, was eine stärkere Gewichtung ressourcenreicher Sprachen, allen voran Englisch, unumgänglich macht. Dementsprechend sind bei der Verwendung von LLMs als Übersetzungssysteme deutlich mehr Trainingsdaten erforderlich, bis eine starke kontextabhängige mehrsprachige Leistung nachgewiesen werden kann (Hendy et al. 2023).
+\end{styleStandard}
+
+\begin{styleStandard}
+Bisherige Publikationen bewerten die Leistung von LLMs als Übersetzungsanwendungen im Vergleich zu NMÜ-Systemen unterschiedlich. Gao et al. betonen, dass LLMs zwar insgesamt schlechtere Ergebnisse liefern als NMÜ-Systeme, dass aber aufgabenspezifische Prompts die Leistung von LLMs erheblich steigern können. Solche Prompts sollten die Übersetzungsaufgabe (z.~B. Ausgangs- und Zielsprache) und die Domäne (z.~B. Recht versus Technik) spezifizieren und auch Part-of-Speech-Tags oder grammatikalische Informationen enthalten. In einer weiteren Studie zum Prompt-Engineering in Übersetzungskontexten kommt He zum Schluss, dass die Übersetzungsergebnisse bei der Verwendung von ChatGPT auch dann verbessert werden können, wenn dem LLM eine Expert:innenrolle zugewiesen werde, wie im folgenden Beispiel: „You are a professional popular science translator“ (2024, 4). Jiao et al. weisen einerseits auf unterschiedliche Übersetzungsergebnisse je nach verwendeter ChatGPT-Version hin, andererseits soll ChatGPT bessere Übersetzungen als NMÜ-Systeme produzieren, wenn die übersetzten Texte die gesprochene Sprache widerspiegeln, aber bei biomedizinischen Abstracts immer noch von NMÜ übertroffen werden (Gao et al. 2023). Lee hebt zwar die höhere Randomisierung der LLM-Übersetzungsergebnisse als Nachteil hervor, kommt aber insgesamt zum Schluss, dass ChatGPT mindestens so gut übersetze wie die verbreiteten NMÜ-Systeme (2023, 2). Folglich gibt er auch eine sehr positive Zukunftsprognose für LLMs im Sprachdienstleistungssektor ab: „Considering that LLMs are only at their nascent stage, it is almost certain that MT will be able to operate with increasing autonomy, at least with respect to specialized technical communications“ (Lee 2023, 2). Sánchez-Gijón und Palenzuela-Badiola zeigen darüber hinaus, dass LLMs wie ChatGPT nicht nur für das Übersetzen selbst, sondern auch für die Vor- und Nachbereitung von Übersetzungen nützlich sein können (2023, 238-9).
+\end{styleStandard}
+
+\begin{listWWNumxxiileveli}
+\item 
+\begin{styleListParagraph}
+\textbf{Human- und KI-Übersetzungen literarischer Kurztexte im Vergleich}
+\end{styleListParagraph}
+\end{listWWNumxxiileveli}
+\begin{styleStandard}
+Im Folgenden wird ein Auszug aus Virginia Woolfs literarischer Skizze „Blue \& Green“ im englischsprachigen Original (1921) und in der deutschen Übersetzung von Christel Kröning (2021) zwei KI-Übersetzungen gegenübergestellt, die mit DeepL (2023) und ChatGPT (2023) erstellt wurden. Anschließend werden die KI-Übersetzungen vom November 2023 mit zwei weiteren vom September 2024 verglichen, wobei bei der DeepL-Zweitübersetzung erstmals das Sprachmodell der nächsten Generation verwendet wurde, das wenige Wochen zuvor unter anderem für die Sprachkombination Deutsch-Englisch eingeführt worden war. Bei der ChatGPT-Zweitversion wurde versucht, das Ergebnis durch zusätzliches aufgabenspezifisches Prompt-Engineering zu optimieren. Abschließend wird ein kurzer, gereimter Textauszug aus einem irischen Kinderbuch von Séamus Ó Conaill mit dem Titel \textit{Spuds and the Spider} (2018) analysiert, um exemplarisch die gebundene Rede als einen Anwendungsbereich zu thematisieren, für den bis auf weiteres (wenn überhaupt) vor allem LLMs nützliche Übersetzungsergebnisse generieren. Aufgrund des begrenzten Textkorpus, dessen Analyse der Darstellung unterschiedlicher Tendenzen in der Human- und KI-Übersetzung und insbesondere einer möglichen Differenzierung zwischen NMÜ-Systemen (DeepL) und LLMs (ChatGPT) in diesem Kontext dienen soll, wird auf den Einsatz von Metriken zur Übersetzungsbewertung bzw. zur Quantifizierung linguistischer Diversität wie beispielsweise der Type-Token-Relation verzichtet. Es sei jedoch darauf hingewiesen, dass Korpusanalysen von nachbearbeiteten literarischen Übersetzungen im Vergleich zu reinen Humanübersetzungen seit einigen Jahren wertvolle Beiträge zum Verständnis der veränderten kognitiven Übersetzungsprozesse im Zeitalter der KI liefern (siehe z.~B. Macken et al. 2022).
+\end{styleStandard}
+
+\begin{styleStandard}
+In einem ersten Schritt werden hier das englischsprachige Original von Woolf sowie die Human- und die beiden KI-Übersetzungen vom November 2023 tabellarisch dargestellt. Der Prompt für die erste Übersetzung mit ChatGPT am 05.11.2023 lautete wie folgt: „Please translate the followig piece of flash fiction by Virginia Woolf into German.“ Um die Übersetzungsleistung dieses großen, nicht aufgabenspezifischen Sprachmodells zu optimieren, wurden Informationen zur Textsorte, Autorin und Zielsprache angegeben:
+\end{styleStandard}
+
+\begin{flushleft}
+\tablefirsthead{}
+\tablehead{}
+\tabletail{}
+\tablelasttail{}
+\begin{supertabular}{m{1.8cm}|m{1.8cm}|m{1.8cm}|m{1.8cm}}
+\multicolumn{1}{m{1.8cm}}{{\bfseries Virginia Woolf}} &
+\multicolumn{1}{m{1.8cm}}{{\bfseries Christel Kröning}} &
+\multicolumn{1}{m{1.8cm}}{{\bfseries DeepL}} &
+{\bfseries ChatGPT 3.5}\\\hline
+{\bfseries BLUE}
+
+{\bfseries The snub-nosed monster rises to the surface and spouts through his blunt nostrils two columns of water, which, fiery-white in the centre, spray off into a fringe of blue beads. Strokes of blue line the black tarpaulin of his hide. Slushing the water through mouth and nostrils he sings, heavy with water, and the blue closes over him dowsing the polished pebbles of his eyes. Thrown upon the beach he lies, blunt, obtuse, shedding dry blue scales. Their metallic blue stains the rusty iron on the beach. Blue are the ribs of the wrecked rowing boat. A wave rolls beneath the blue bells. But the cathedral's different, cold, incense laden, faint blue with the veils of madonnas. \newline
+(118 Wörter)} &
+BLAU
+
+Als das flachnasige Ungeheuer den Wasserspiegel durchbricht, stößt es durch jede Nüster eine Fontäne aus, die sich, im Innern grellweiß, auffächert zu einem blauen Perlenvorhang. Blaue Pinselstriche überziehen das Teerschwarz seiner Haut. Wasser durch Maul und Nüstern schlürfend, sinkt es, vollgesogen, und das Blau schließt sich über ihm, schließt sich über den glänzenden Kieselaugen. An den Strand gespült liegt es da, glanzlos, stumpf, verliert eine spröde Schuppe nach der anderen. Ihr Metallblau färbt den Eisenrost des Strandes. Blau sind die Rippen des Ruderbootwracks. Eine Welle rollt unter den Glockenblumen hindurch. Die Kathedrale jedoch ist anders, kalt, weihrauchschwer, blassblau von Madonnenschleiern. (101 Wörter) &
+BLAU
+
+Das stupsnasige Ungeheuer steigt an die Oberfläche und spuckt durch seine stumpfen Nasenlöcher zwei Wassersäulen aus, die in der Mitte feurig-weiß sind und in einem Saum aus blauen Perlen verspritzen. Blaue Striche säumen die schwarze Plane seiner Haut. Er spült das Wasser durch Mund und Nasenlöcher und singt, schwer von Wasser, und das Blau schließt sich über ihm und tränkt die polierten Kieselsteine seiner Augen. Auf den Strand geworfen liegt er, stumpf, stumpf, trockene blaue Schuppen abwerfend. Ihr metallisches Blau befleckt das rostige Eisen am Strand. Blau sind die Rippen des zerstörten Ruderbootes. Eine Welle rollt unter den blauen Glocken. Aber die Kathedrale ist anders, kalt, weihrauchgeschwängert, blassblau mit den Schleiern der Madonnen. (114~Wörter) &
+BLAU 
+
+Das stupsnasige Ungeheuer taucht an die Oberfläche und spuckt durch seine stumpfen Nasenlöcher zwei Wasserfontänen aus, die in der Mitte feurig weiß sind und sich in einen Saum aus blauen Perlen versprühen. Striche aus Blau ziehen sich über die schwarze Plane seiner Haut. Er schwappt das Wasser durch Mund und Nüstern, singt, schwer vom Wasser, und das Blau schließt sich über ihm und löscht die polierten Kiesel seiner Augen aus. An den Strand geworfen liegt er, stumpf, abgestumpft, trocknet blau schuppige Haut ab. Ihr metallisches Blau färbt das rostige Eisen am Strand. Blau sind die Rippen des zerstörten Ruderbootes. Eine Welle rollt unter den blauen Glocken. Aber die Kathedrale ist anders, kalt, vom Weihrauch erfüllt, schwach blau mit den Schleiern der Madonnen. (123 Wörter)
+
+\\\hline
+\textbf{Woolf, Virginia. 1921/2017. „Blue \& Gree“. In }\textbf{\textit{Monday or Tuesday}}\textbf{. Project Gutenberg. }\url{https://www.gutenberg.org/ebooks/29220}\textbf{. } &
+Woolf, Virginia. 1921/2021. \textit{Virginia Woolf – Meistererzählungen / Collected Stories: Zweisprachige Ausgabe (Dt./Engl.) Neu Übersetzt Von Christel Kröning}. Anaconda, 175–6. &
+Woolf, Virginia. 1921/2017. „Blue \& Gree“. In \textit{Monday or Tuesday}. Project Gutenberg. \url{https://www.gutenberg.org/ebooks/29220}. Übersetzt mit DeepL. 05.11.2023.  &
+Woolf, Virginia. 1921/2017. „Blue \& Gree“. In \textit{Monday or Tuesday}. Project Gutenberg. \url{https://www.gutenberg.org/ebooks/29220}. Übersetzt mit ChatGPT 3.5. 05.11.2023.\\\hline
+\end{supertabular}
+\end{flushleft}
+\begin{styleStandard}
+Die Humanübersetzung unterscheidet sich erwartungsgemäß deutlich von den beiden KI-Versionen. Während Kröning sich insgesamt weiter vom Ausgangstext entfernt, um einen idiomatischen literarischen Text in deutscher Gegenwartssprache zu produzieren, bleiben beide KI-Applikationen im Hinblick auf Wortwahl, Syntax und Stil sehr nah am Ausgangstext, weisen also erheblich weniger „creative shifts“ und somit deutlich mehr reproduzierende Übersetzungsstrategien auf als die Humanübersetzung (siehe Bayer-Hohenwarter 2011; Guerberof-Arenas und Toral 2022 und 2024). Besonders fällt dies bei den jeweiligen Übersetzungen für „snub-nosed“ und „black tarpaulin of his hide“ ins Auge. Um eine Assoziation des Monstergesichts mit Kindlichkeit durch die Verwendung der Standardübersetzung zu vermeiden, wählt Kröning das neutralere „flachnasig“ statt des Adjektivs „stupsnasig“, das in beiden KI-Übersetzungen enthalten ist. Die KI-Übersetzung „schwarze Plane seiner Haut“ entspricht einer Übertragung des Ausgangssegments auf der Wortebene, während Kröning mit der Wahl von „Teerschwarz“ einerseits eine Normalisierung der im Englischen durchaus ungewöhnlichen Kollokation vornimmt und andererseits historisches Wissen über die Herstellung wasserabweisender Planen zu Beginn des 20. Jahrhunderts mithilfe von Teer in ihre Übersetzung einfließen lässt. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Die KI-Übersetzungen unterscheiden sich nur geringfügig voneinander, sodass die Beobachtung von Lommel, dass LLMs aufgrund größerer Kontextfenster bei kohäsiven Elementen wie Genusmarkierungen bessere Übersetzungen produzieren, in diesem Übersetzungsbeispiel nicht bestätigt wird (2023). Weder DeepL noch ChatGPT geben in den deutschen Textversionen das für das Nomen „Monster“ adäquate Neutrum-Pronomen „es“ aus, was auf die Tatsache zurückzuführen ist, dass Woolf wie im Englischen bei personifizierten Tieren häufig eine Geschlechtszuweisung vornimmt. Das maskuline Pronomen wird in beiden KI-Übersetzungen aus dem Ausgangstext übernommen, was die mehrfach geäußerte These nicht bestätigt, dass LLMs aufgrund größerer Kontextfenster u.~a. Geschlechtsmarkierungen kohärenter übersetzen sollten (siehe Lommel 2023). Die große Nähe zum Ausgangstext führt teilweise zu erheblichen stilistischen Mängeln und Fehlern im Deutschen, wie die Verdoppelung deutscher Adjektive in „stumpf, stumpf“ (DeepL 2023) bzw. „stumpf, abgestumpft“ (ChatGPT 3.5 2023) sowie die Verwendung einer falschen Präposition in den Kollokationen „blass blau mit den Schleiern der Madonnen“ (DeepL 2023) und „schwach blau mit den Schleiern der Madonnen“ (ChatGPT 3.5 2023) belegen. Im Bereich der Idiomatik treten sowohl in der DeepL- als auch in der ChatGPT-Übersetzung Fehler deutlich hervor. In der DeepL-Ausgabe stößt der monsterartige Fisch „zwei Wassersäulen aus, die in der Mitte feurig-weiß sind und in einem Saum aus blauen Perlen verspritzen“ (2023). Der Fehler liegt hier in der Verwendung von „verspritzen“ als intransitives Verb. In der deutschsprachigen ChatGPT-Version sind weder die im Wasser verschwindenden Augen des eintauchenden Fisches („das Blau schließt sich über ihm und löscht die polierten Kiesel seiner Augen aus“) noch das Abwerfen der Schuppen nach dem Stranden („trocknet blau schuppige Haut ab“) erkennbar (ChatGPT 3.5 2023).
+\end{styleStandard}
+
+\begin{styleStandard}
+Interessant sind auch Krönings Eingriffe an zwei Stellen des Textes, die im Englischen höchstwahrscheinlich fehlerhaft sind und deren Nichtbeachtung im Deutschen daher zwangsläufig zu Übersetzungsfehlern führt. Im Gesamtzusammenhang erscheint es schlüssiger, dass das Monster im Text „singt“ (Kröning 2021) und nicht „sinkt“ (DeepL und ChatGTP 2023), und es ist auch wahrscheinlich, dass Woolf mit „blue bells“ (1921) eigentlich „bluebells“ bzw. „Glockenblumen“ (Kröning 2021) meinte und nicht das in beiden KI-Übersetzungen ausgegebene Äquivalent auf Wortebene, „blaue Glocken“ (DeepL und ChatGTP 2023).
+\end{styleStandard}
+
+\begin{styleStandard}
+Um den Textvergleich möglichst übersichtlich zu gestalten, werden hier die wichtigsten Beobachtungen zu den einzelnen Übersetzungen in tabellarischer Form dargestellt:
+\end{styleStandard}
+
+\begin{flushleft}
+\tablefirsthead{}
+\tablehead{}
+\tabletail{}
+\tablelasttail{}
+\begin{supertabular}{m{1.8cm}|m{1.8cm}|m{1.8cm}}
+\multicolumn{1}{m{1.8cm}}{{\bfseries Christel Kröning}} &
+\multicolumn{1}{m{1.8cm}}{{\bfseries DeepL}} &
+{\bfseries ChatGPT 3.5}\\\hline
+\textbf{Kürzer} &
+\textbf{Länger} &
+\textbf{Länger} \textbf{als Original }(Spiegelung des humanübersetzerischen Phänomens der \textbf{Explizierung}?)\\\hline
+Übersetzerin \textbf{entfernt sich }oft \textbf{vom Originalwortlaut} (z. B. „flachnasig“, „Teerschwarz seiner Haut“ für „snub-nosed“ und „black tarpaulin of his hide“) &
+Bleibt \textbf{näher am Originalwortlaut }(z. B. „stupsnasig“, „schwarze Plane seiner Haut“ für „snub-nosed“ und „black tarpaulin of his hide“) &
+Bleibt \textbf{näher am Originalwortlaut }(z.~B. „stupsnasig“, “schwarze Plane seiner Haut” für „snub-nosed“ und „black tarpaulin of his hide“)\\\hline
+\textbf{Keine Fehler} &
+\textbf{Fehler} (z.~B. Wassersäulen, die „in einem Saum aus blauen Perlen verspritzen“, maskulines Pronomen „[e]r“ zur Beschreibung des Monsters, Interferenz des Englischen in „blassblau mit den Schleiern der Madonnen“ für „faint blue with the veils of madonnas“) &
+\textbf{Fehler} (z. B. \ maskulines Pronomen „[e]r“ zur Bescheibung des Monsters, Übersetzen von „dowsing“ als „löscht ... aus“ und „shedding“ als „trocknet ... ab“, Interferenz des Englischen in „schwach blau mit den Schleiern der Madonnen“ für „faint blue with the veils of madonnas“)\\\hline
+\textbf{Keine stilistischen Schwächen} &
+\textbf{Stilistische Schwächen} (z.~B. „stumpf, stumpf“ für „blunt, obtuse“) &
+\textbf{Stilistische Schwächen }(z.~B. „stumpf, abgestumpft“ für „blunt, obtuse“)\\\hline
+\textbf{Verbessert} potenzielle \textbf{Schwächen} im Originaltext (z. B. „sinkt“ für „sings“, „Glockenblumen“ für „blue bells“) &
+\textbf{Keine Verbesserung }von potenziellen Schwächen im Originaltext (z.~B. „singt“ für „sings“, „blaue Glocken“ for „blue bells“) &
+\textbf{Keine Verbesserung }von potenziellen Schwächen im Originaltext (z.~B. „singt“ für „sings“, „blaue Glocken“ für „blue bells“)\\\hline
+\end{supertabular}
+\end{flushleft}
+\begin{styleStandard}
+Im Folgenden wird die ursprüngliche DeepL-Version mit einer neueren Version verglichen, die mit dem Sprachmodell der nächsten Generation erstellt wurde, das DeepL im September 2024 für einige Sprachkombinationen, darunter Englisch-Deutsch, vorgestellt hat:
+\end{styleStandard}
+
+\begin{flushleft}
+\tablefirsthead{}
+\tablehead{}
+\tabletail{}
+\tablelasttail{}
+\begin{supertabular}{m{1.8cm}|m{1.8cm}|m{1.8cm}}
+\multicolumn{1}{m{1.8cm}}{{\bfseries Virginia Woolf}} &
+\multicolumn{1}{m{1.8cm}}{{\bfseries DeepL Classic Language Model}} &
+{\bfseries DeepL Next-Generation Language Model}\\\hline
+{\bfseries BLUE}
+
+{\bfseries The snub-nosed monster rises to the surface and spouts through his blunt nostrils two columns of water, which, fiery-white in the centre, spray off into a fringe of blue beads. Strokes of blue line the black tarpaulin of his hide. Slushing the water through mouth and nostrils he sings, heavy with water, and the blue closes over him dowsing the polished pebbles of his eyes. Thrown upon the beach he lies, blunt, obtuse, shedding dry blue scales. Their metallic blue stains the rusty iron on the beach. Blue are the ribs of the wrecked rowing boat. A wave rolls beneath the blue bells. But the cathedral's different, cold, incense laden, faint blue with the veils of madonnas. \newline
+(118 Wörter)} &
+BLAU
+
+Das stupsnasige Ungeheuer steigt an die Oberfläche und spuckt durch seine stumpfen Nasenlöcher zwei Wassersäulen aus, die in der Mitte feurig-weiß sind und in einem Saum aus blauen Perlen verspritzen. Blaue Striche säumen die schwarze Plane seiner Haut. Er spült das Wasser durch Mund und Nasenlöcher und singt, schwer von Wasser, und das Blau schließt sich über ihm und tränkt die polierten Kieselsteine seiner Augen. Auf den Strand geworfen liegt er, stumpf, stumpf, trockene blaue Schuppen abwerfend. Ihr metallisches Blau befleckt das rostige Eisen am Strand. Blau sind die Rippen des zerstörten Ruderbootes. Eine Welle rollt unter den blauen Glocken. Aber die Kathedrale ist anders, kalt, weihrauchgeschwängert, blassblau mit den Schleiern der Madonnen. (114~Wörter) &
+BLAU
+
+Das stupsnasige Monster erhebt sich an die Oberfläche und speit durch seine stumpfen Nasenlöcher zwei Wassersäulen, die in der Mitte feuerweiß sind und in einem Kranz aus blauen Perlen versprühen. Blaue Striche säumen die schwarze Plane seines Verstecks. Er schlürft das Wasser durch Mund und Nasenlöcher und singt, schwer vom Wasser, und das Blau schließt sich über ihm und bedeckt die polierten Kiesel seiner Augen. Er liegt am Strand, stumpf, starr, und lässt trockene blaue Schuppen fallen. Ihr metallisches Blau färbt das rostige Eisen am Strand. Blau sind die Rippen des zerstörten Ruderboots. Eine Welle rollt unter den blauen Glocken. Aber die Kathedrale ist anders, kalt, mit Weihrauch geschwängert, mattblau mit den Schleiern der Madonnen. (116 Wörter)\\\hline
+\textbf{Woolf, Virginia. 1921/2017. „Blue \& Gree“. In }\textbf{\textit{Monday or Tuesday}}\textbf{. Project Gutenberg. }\url{https://www.gutenberg.org/ebooks/29220}\textbf{.} &
+Woolf, Virginia. 1921/2017. „Blue \& Gree“. In \textit{Monday or Tuesday}. Project Gutenberg. \url{https://www.gutenberg.org/ebooks/29220}. Übersetzt mit DeepL. 05.11.2023.  &
+Woolf, Virginia. 1921/2017. „Blue \& Gree“. In \textit{Monday or Tuesday}. Project Gutenberg. \url{https://www.gutenberg.org/ebooks/29220}. Übersetzt mit DeepL Pro (Sprachmodell der nächsten Generation). 28.09.2024.\\\hline
+\end{supertabular}
+\end{flushleft}
+\begin{styleStandard}
+Das Ergebnis dieses Übersetzungsversuchs mit dem neuen DeepL-Sprachmodell deutet nicht auf eine merkliche Verbesserung der Ausgabequalität hin. Auf lexikalischer Ebene weist die neuere DeepL-Version im Vergleich zur älteren einige Unterschiede auf, die jedoch nicht zu einer Qualitätssteigerung führen (z.~B. „steigt“ [DeepL 2023] versus „erhebt sich“ [DeepL 2024] am Anfang des Textes). Die ungeschickte Verdoppelung von „stumpf, stumpf“ (DeepL 2023) für „blunt, obtuse“ (Woolf 1921) wurde in der neueren DeepL-Version durch ein ansprechenderes Adjektivpaar mit Alliteration ersetzt („stumpf, starr“ [DeepL 2024]). Andererseits bleiben einige Übersetzungsfehler aus der DeepL-Erstversion auch in der neueren Übersetzung in ähnlicher Form bestehen („in einem Kranz aus blauen Perlen versprühen“ [DeepL 2024] enthält wieder ein transitives Verb in intransitiver Verwendung, und „mattblau mit den Schleiern der Madonnen“ [DeepL 2024] beruht wieder auf der direkten Übertragung der Präposition aus dem Englischen, die in der vorliegenden Kollokation im Deutschen jedoch falsch ist). Da das englische „hide“ (Woolf 1921) in der Zweitversion fälschlicherweise als „Versteck“ übersetzt wurde (DeepL 2024), kommt hier sogar ein zusätzlicher Fehler vor. Erste Beobachtungen deuten also darauf hin, dass bei Verwendung des DeepL-Sprachmodells der nächsten Generation mit einer leicht erhöhten Fehlerquote in der maschinellen Ausgabe zu rechnen ist, während gleichzeitig auch eine höhere Anzahl an „creative shifts“ (vgl. Bayer-Hohenwarter 2011; Guerberof-Arenas und Toral 2022 und 2024) auftreten dürfte. Bei Übersetzungen mit dem herkömmlichen Sprachmodell von DeepL ist hingegen tendenziell häufiger mit reproduzierenden Übersetzungslösungen zu rechnen, wobei dieses Sprachmodell auch zuverlässiger ist. Ähnliches scheint auch für den Einsatz von LLMs für Übersetzungen ohne aufgabenspezifisches Prompting zu gelten.
+\end{styleStandard}
+
+\begin{styleStandard}
+Im Folgenden wird auch die bereits besprochene Version von ChatGPT 3.5 mit einer neueren Übersetzung verglichen, die mit ChatGPT 4o erstellt wurde. Um eine möglichst hohe Übersetzungsleistung zu gewährleisten, enthielt der Prompt für die Erstübersetzung mit ChatGPT 3.5 am 05.11.23 als aufgabenspezifische Informationen den Namen der Originalautorin, die Bezeichnung des Genres und die Angabe der Zielsprache. Für die ChatGPT-Zweitübersetzung wurde dem Modell 4o, wie von He (2024, 4) und OpenAI (2024) empfohlen, zusätzlich eine Expert:innenrolle zugeschrieben. Durch die explizite Aufforderung an ChatGPT, die Übersetzungsaufgabe langsam auszuführen, wurde ein weiterer Hinweis von OpenAI für effektives Prompt-Engineering berücksichtigt (2024). So lautete der Prompt vom 27.09.24: „You are an author and literary translator specializing in early 20\textsuperscript{th} century fiction from the United Kingdom. Please translate the following piece of flash fiction by Virginia Woolf from English into German and focus on capturing the stylistic nuances of the source text while using idiomatic German. Take your time.“ Das Ergebnis wird in dieser Tabelle neben dem Original von Woolf und der ersten ChatGPT-Übersetzung dargestellt:
+\end{styleStandard}
+
+\begin{flushleft}
+\tablefirsthead{}
+\tablehead{}
+\tabletail{}
+\tablelasttail{}
+\begin{supertabular}{m{1.8cm}|m{1.8cm}|m{1.8cm}}
+\multicolumn{1}{m{1.8cm}}{{\bfseries Virginia Woolf}} &
+\multicolumn{1}{m{1.8cm}}{{\bfseries ChatGPT 3.5}} &
+{\bfseries ChatGPT 4o}\\\hline
+{\bfseries BLUE}
+
+{\bfseries The snub-nosed monster rises to the surface and spouts through his blunt nostrils two columns of water, which, fiery-white in the centre, spray off into a fringe of blue beads. Strokes of blue line the black tarpaulin of his hide. Slushing the water through mouth and nostrils he sings, heavy with water, and the blue closes over him dowsing the polished pebbles of his eyes. Thrown upon the beach he lies, blunt, obtuse, shedding dry blue scales. Their metallic blue stains the rusty iron on the beach. Blue are the ribs of the wrecked rowing boat. A wave rolls beneath the blue bells. But the cathedral's different, cold, incense laden, faint blue with the veils of madonnas. \newline
+(118 Wörter)} &
+BLAU 
+
+Das stupsnasige Ungeheuer taucht an die Oberfläche und spuckt durch seine stumpfen Nasenlöcher zwei Wasserfontänen aus, die in der Mitte feurig weiß sind und sich in einen Saum aus blauen Perlen versprühen. Striche aus Blau ziehen sich über die schwarze Plane seiner Haut. Er schwappt das Wasser durch Mund und Nüstern, singt, schwer vom Wasser, und das Blau schließt sich über ihm und löscht die polierten Kiesel seiner Augen aus. An den Strand geworfen liegt er, stumpf, abgestumpft, trocknet blau schuppige Haut ab. Ihr metallisches Blau färbt das rostige Eisen am Strand. Blau sind die Rippen des zerstörten Ruderbootes. Eine Welle rollt unter den blauen Glocken. Aber die Kathedrale ist anders, kalt, vom Weihrauch erfüllt, schwach blau mit den Schleiern der Madonnen. (123 Wörter)
+
+ &
+BLAU
+
+Das stumpfnasige Ungeheuer erhebt sich an die Oberfläche und sprüht durch seine stumpfen Nüstern zwei Wasserfontänen, die im Zentrum feurig-weiß sind und sich zu einem Saum aus blauen Tropfen vernebeln. Blaue Striche durchziehen die schwarze Plane seines Fells. Schwere Wasserströme durch Mund und Nüstern spülend, singt er, schwer beladen mit Wasser, und das Blau schließt sich über ihm und taucht die polierten Kiesel seiner Augen in Dunkelheit. An den Strand geworfen, liegt er da, stumpf, dumpf, wirft trockene blaue Schuppen ab. Ihr metallisches Blau befleckt das rostige Eisen am Strand. Blau sind die Rippen des gestrandeten Ruderboots. Eine Welle rollt unter den blauen Glocken. Doch die Kathedrale ist anders, kalt, von Weihrauch erfüllt, ein blasses Blau, verschleiert von Madonnen. (123 Wörter)
+
+\\\hline
+\textbf{Woolf, Virginia. 1921/2017. „Blue \& Gree“. In }\textbf{\textit{Monday or Tuesday}}\textbf{. Project Gutenberg. }\url{https://www.gutenberg.org/ebooks/29220}\textbf{.} &
+Woolf, Virginia. 1921/2017. „Blue \& Gree“. In \textit{Monday or Tuesday}. Project Gutenberg. \url{https://www.gutenberg.org/ebooks/29220}. Übersetzt mit ChatGPT 3.5. 05.11.2023.
+
+ &
+Woolf, Virginia. 1921/2017. „Blue \& Gree“. In \textit{Monday or Tuesday}. Project Gutenberg. \url{https://www.gutenberg.org/ebooks/29220}. Übersetzt mit ChatGPT 4o. 27.09.2024.
+
+\\\hline
+ &
+Prompt: „Please translate the followig piece of flash fiction by Virginia Woolf into German.“ &
+Prompt: „You are an author and literary translator specializing in early 20\textsuperscript{th} century fiction from the United Kingdom. Please translate the following piece of flash fiction by Virginia Woolf from English into German and focus on capturing the stylistic nuances of the source text while using idiomatic German. Take your time.“\\\hline
+\end{supertabular}
+\end{flushleft}
+\begin{styleStandard}
+Auch wenn die zweite deutschsprachige Version von ChatGPT kaum Übersetzungsfehler enthält und als Zieltext idiomatischer ist als die erste Version, besteht durchaus noch Überarbeitungsbedarf, wenn eine dem Original qualitativ ebenbürtige Übersetzung erstellt werden soll. Auf lexikalischer Ebene weist die zweite deutschsprachige ChatGPT-Version (ChatGPT 4o 2024) keine Übersetzungsfehler auf, während potentielle Fehler im Ausgangstext („sings“ statt „sinks“ bzw. „blue bells“ statt „bluebells“) auch in dieser Übersetzung bestehen bleiben. Auch das maskuline Pronomen „er“ als ungeeignetes Äquivalent für das im Neutrum verwendete Nomen „Monster“ bleibt in der neuen Übersetzung erhalten. Andererseits deutet die Übersetzung von „snub-nosed“ als „stumpfnasig“ in der deutschsprachigen Version vom 27.09.24 möglicherweise darauf hin, dass ChatGPT~4o in der Lage sein könnte, bestimmte Bedeutungsnuancen kohärenter wiederzugeben, als dies in der ChatGPT-Erstversion der Fall ist.
+\end{styleStandard}
+
+\begin{styleStandard}
+Als letzte Herausforderung im Vergleich von Human- und KI-Übersetzungen soll hier ein Reim besprochen werden, der in einem 2018 veröffentlichten Kinderbuch vorkommt. \textit{Spuds and the Spider} von Séamus Ó Conaill mit Illustrationen von Daniele Archimede handelt von einer koboldartigen Figur aus der irischen Folklore, einem \textit{leprechaun} namens Spuds Potsofgold, und seiner Frau Rose Goodytwoshoes. Spuds gerät in einen Konflikt mit einem Spinnerich namens Leggers McWeb, der überall in seinem Haus Spinnweben hinterlässt. Am Ende rettet Leggers mit einem seiner Fäden Spuds, der in einen tiefen Brunnenschacht gefallen ist, und die beiden versöhnen sich.
+\end{styleStandard}
+
+\begin{styleStandard}
+Um die Streitigkeiten zwischen Spuds und Leggers zu schlichten und ihren Mann zur Ruhe zu bringen, spricht Rose immer wieder dieselben gereimten Worte, deren Human- und KI-Übersetzungen in der folgenden Tabelle zusammengefasst sind. Die Humanübersetzungen wurden in Lehrveranstaltungen zum literarischen Übersetzen (Wintersemester 2021–22) und zum kreativen Schreiben (Sommersemester 2023) von Studierenden an der Universität Innsbruck erstellt, während die KI-Übersetzungen jeweils am 18.01.2024 mit DeepL, ChatGPT 3.5 und ChatGPT 4.0 generiert wurden. Die Tabelle zeigt, dass bei den vorliegenden Humanübersetzungen grundsätzlich die Tendenz besteht, die Textform, also die Reime und Rhythmisierung des Textes, in den Vordergrund zu stellen, während bei den KI-Übersetzungen zunächst ausschließlich die Bedeutungsebene berücksichtigt wurde. Während bei Verwendung von DeepL vorerst keine Möglichkeit besteht, eine Übersetzung hinsichtlich der Textform anzupassen, kann man mit ChatGPT seit jeher gereimte Zieltexte erstellen. Allerdings war es beim hier präsentierten Übersetzungsversuch nicht möglich, in einem Schritt den Text in gebundener Rede vom Englischen ins Deutsche zu übertragen, obwohl der Ausgangstext im Prompt explizit als „rhyme“ bezeichnet wurde: 
+\end{styleStandard}
+
+\begin{flushleft}
+\tablefirsthead{}
+\tablehead{}
+\tabletail{}
+\tablelasttail{}
+\begin{supertabular}{m{1.0427599in}m{1.0441599in}m{1.0448599in}m{1.0434599in}m{1.1650599in}}
+{\bfseries Original} &
+{\bfseries Humanübers. WS 2021-22 (Lit. Üs) und SS 2023 (Kreat. Schr.)} &
+{\bfseries DeepL (18.01.24)} &
+{\bfseries ChatGPT 3.5 (18.01.24)} &
+{\bfseries ChatGPT 4 (18.01.24)}\\\hline
+\multicolumn{1}{m{1.0427599in}|}{\textbf{\textit{He means no harm,}}
+
+\textbf{\textit{Let him go,}}
+
+\textbf{\textit{Just be kind,}}
+
+\textbf{\textit{You never know. }}
+
+(Rose Goodytwoshoes versucht zwischen Spuds und Leggers zu vermitteln)} &
+\multicolumn{1}{m{1.0441599in}|}{\textbf{\textit{Er schadet nicht,}}
+
+\textbf{\textit{Lass ihn gehn,}}
+
+\textbf{\textit{Sei einfach nett,}}
+
+\textbf{\textit{Man wird sehn.}}
+
+Alternative 1: 
+
+\textbf{\textit{Er meint’s doch nicht böse,}}
+
+\textbf{\textit{lass ihn einfach gehen.}}
+
+\textbf{\textit{Nett zu sein lohnt sich,}}
+
+\textbf{\textit{du wirst es schon sehen. }}
+
+Alternative 2: 
+
+\textbf{\textit{Er meint’s nur gut,}}
+
+\textbf{\textit{lass ihn geh’n}}
+
+\textbf{\textit{d’rum hab nur Mut,}}
+
+\textbf{\textit{du wirst schon seh’n.}}\textit{~}} &
+\multicolumn{1}{m{1.0448599in}|}{\textbf{\textit{Er meint es nicht böse,}}
+
+\textbf{\textit{Lass ihn gehen,}}
+
+\textbf{\textit{Sei einfach nett,}}
+
+\textbf{\textit{Man kann nie wissen.}}} &
+\multicolumn{1}{m{1.0434599in}|}{Prompt: „Please translate this rhyme into German.“
+
+\textbf{\textit{Er meint es nicht böse,}}
+
+\textbf{\textit{Lass ihn gehen, }}
+
+\textbf{\textit{Sei einfach nett, }}
+
+\textbf{\textit{Man kann nie wissen.}}
+
+Prompt: „Could you please also rhyme the German version.“
+
+\textbf{\textit{Er meint es nicht böse,}}
+
+\textbf{\textit{Lass ihn ziehen, ohne Verdruss,}}
+
+\textbf{\textit{Sei einfach nett und klug,}}
+
+\textbf{\textit{Manch Geheimnis bleibt verborgen, ohne Diskurs.}}} &
+Prompt: „Please translate this rhyme into German.“
+
+\textbf{\textit{Er meint es nicht böse,}}
+
+\textbf{\textit{Lass ihn gehen, }}
+
+\textbf{\textit{Sei einfach nett, }}
+
+\textbf{\textit{Man kann nie wissen}}\textit{.}
+
+Prompt: „Could you please also rhyme the German version.“
+
+\textbf{\textit{Er will nicht stören, }}
+
+\textbf{\textit{Lass ihn doch ziehen, }}
+
+\textbf{\textit{Sei einfach lieb, }}
+
+\textbf{\textit{Wer weiß, was wird geschehen.}}\\\hline
+\end{supertabular}
+\end{flushleft}
+\begin{styleStandard}
+Wenngleich beispielsweise das Wortpaar „Verdruss“ und „Diskurs“ als Reimvorschlag für einen Text der Kinderliteratur nur bedingt tauglich ist und vermutlich keiner der hier angeführten KI-Übersetzungsvorschläge unverändert übernommen werden könnte, eröffnet die Möglichkeit, auch Texte in gebundener Rede teilautomatisiert zu übersetzen, vielversprechende neue Perspektiven. Auch Kolb et al. weisen auf mögliche positive Effekte von KI-Anwendungen auf die Übertragung von Wortneuschöpfungen sowie experimentellen Texten oder Textpassagen hin. Da die maschinelle Ausgabe in der Regel lexikalisch und syntaktisch näher beim Ausgangstext bleibt als Humanübersetzungen, können KI-Anwendungen ihre Nutzer:innen dazu einladen, originelle Übersetzungsideen aufzugreifen, und so der Normalisierung stilistischer Besonderheiten im Zieltext entgegenwirken (2023).
+\end{styleStandard}
+
+\begin{listWWNumxxiileveli}
+\item 
+\begin{styleListParagraph}
+\textbf{Risikomanagement: Eine relevante Größe in der literarischen Übersetzung?}
+\end{styleListParagraph}
+\end{listWWNumxxiileveli}
+\begin{styleStandard}
+Seitdem zunächst NMÜ-Systeme und in der Folge auch LLMs Einzug in den Sprachdienstleistungssektor gehalten haben, sind die damit verbundenen persönlichen und gesellschaftlichen Risiken sowie die sich verändernden Kompetenzprofile von Translator:innen Gegenstand wissenschaftlicher Diskurse (siehe beispielsweise Nitzke et al. 2019; Sandrini 2022; Hackenbuchner und Krüger 2023). Nitzke et al. weisen unter anderem auf Risiken im Zusammenhang mit Datenschutzverletzungen und Qualitätseinbußen hin. Auch ein möglicher Verlust der Kontrolle über die verwendeten Hilfsmittel aus Sicht von Kund:innen sowie deren mögliche Haftung im Falle von Übersetzungsfehlern werden angeführt (2019: 241). Dementsprechend werden zahlreiche neue Kompetenzen definiert, die in der Sprachdienstleistungsbranche benötigt werden und sozial-unternehmerische, sprachlich-übersetzerische und technologische Komponenten umfassen (2019: 248-50). Auch Hackenbuchner und Krüger betonen die steigende Relevanz einer MÜ-Kompetenz sowohl für Laien als auch für Sprachdienstleister:innen, wobei vor allem letztere in der Lage sein müssten, die KI-Übersetzung technologisch, sprachlich und wirtschaftlich-gesellschaftlich kompetent zu verorten (2023: 285-7). Im Hinblick auf technologische Kompetenzen verweisen Hackenbuchner und Krüger neben allgemeinen Aspekten der Sprachtechnologie insbesondere auch auf Datenkompetenz und eine kognitive MÜ-Kompetenz, die sich auf den Einfluss der MÜ auf Übersetzer:innen bezieht. Darüber hinaus betonen Hackenbuchner und Krüger die Bedeutung eines Verständnisses für die wirtschaftlichen und gesellschaftlichen Implikationen der MÜ, wobei zu letzterem Bereich auch ethische Fragen gehören (2023: 285-92).
+\end{styleStandard}
+
+\begin{styleStandard}
+Dass eine Verwendung von KI-Übersetzungen ohne menschliche Kontrolle etwa im staatlichen Gesundheitssystem des Vereinigten Königreichs (NHS) mit erheblichen Risiken verbunden ist, dürfte außer Zweifel stehen. Dort wurde der Verzicht auf Humandolmetscher:innen unter anderem mit einer möglichen gesundheitlichen Schädigung von Patient:innen in Verbindung gebracht (Hill 2023). Aber auch im Bereich der literarischen Übersetzung birgt eine fehlende oder unzureichende Nachbearbeitung automatisierter Übersetzungen Risiken. Schlechte literarische Übersetzungen können laut Taivalkoski-Shilov dem Ansehen der übersetzten Originalautor:innen, deren Werken und dem Lesepublikum schaden, das in allen Sprachen Anspruch auf höchste literarische Qualität haben sollte (2018: 693).
+\end{styleStandard}
+
+\begin{styleStandard}
+Nichtsdestotrotz ist die KI-Übersetzung aus dem literarischen Übersetzen nicht mehr wegzudenken, und es gibt Bestrebungen in der Übersetzungspraxis und -wissenschaft, Wege für eine möglichst positive und nachhaltige Vernetzung von Mensch und Maschine zu finden. Macken et al. (2022) äußern sich grundsätzlich positiv über die Möglichkeit, durch effiziente KI-gestützte Workflows qualitativ hochwertige und bezahlbare literarische Übersetzungen zu erstellen. Als Beispiel führen Macken et al. den Verlag Nuanxed an, bei dem literarische Zieltexte unter Einbeziehung von KI-Übersetzung, anschließendem Post-Editing (zweisprachig) und abschließendem Lektorat (einsprachig) erstellt werden. Die Untersuchung eines ersten Textkorpus ergab, dass am Ende der dritten Phase kein nennenswerter Qualitätsunterschied zwischen einer literarischen Humanübersetzung und einer post-editierten KI-Übersetzung nachweisbar war (2022).
+\end{styleStandard}
+
+\begin{listWWNumxxiileveli}
+\item 
+\begin{styleListParagraph}
+\textbf{Resümee und Ausblick}
+\end{styleListParagraph}
+\end{listWWNumxxiileveli}
+\begin{styleStandard}
+Neben translationswissenschaftlichen und -praktischen Perspektiven, die den Einzug neuer Technologien in das literarische Übersetzen zu legitimieren versuchen, werden auch Stimmen laut, die sich dezidiert gegen eine (Teil-)Automatisierung des literarischen Übersetzens aussprechen. Ein offener Brief der Berufsverbände der Übersetzer:innen aus Österreich, Deutschland und der Schweiz schließt mit einem Manifest für menschliche Sprache. In Punkten fünf und sechs wird beispielsweise darauf hingewiesen, dass KI-Übersetzungen ihre Leserschaft im Hinblick auf ihre Authentizität täuschen und gleichzeitig das Ökosystem des Literaturbetriebs schädigen würden (IGÜ 2024). Auch Mjölsnes argumentiert, dass das Produkt der maschinellen Übersetzung letztlich „stumm“ sei, da es nur eine Textoberfläche ohne Verankerung im Hinterland gelebter Erfahrung schaffe. Bedeutungsvoll könne eine KI-Übersetzung nur in einem nachfolgenden Schritt, im Zuge eines Post-Editing, werden, wodurch ein ursächlicher Grund für das Schreiben selbst in Frage gestellt werde. Mjölsnes schreibt: „In dieser Trennung liegt ihr Grundproblem, denn sie widerspricht den Vorgängen, dank denen die Sprachen Sinn schöpfen und Erkenntnis hervorbringen. Deswegen ist die maschinelle Übersetzung letzten Endes stumm, egal, wie eloquent ihr Wortgeräusch daherkommt.“ (2022: 65)
+\end{styleStandard}
+
+\begin{styleStandard}
+Obwohl die oben genannten kritischen Einwände überaus wichtige ethische und gesellschaftliche Fragen berühren, die ebenso wie Fragen des Datenschutzes und des Urheberrechts mit großer Aufmerksamkeit und Vorsicht zu behandeln sind, ist der technologische Fortschritt weder aufzuhalten, noch erscheint es aus translatorischer Sicht wünschenswert, auf vielseitige und leistungsstarke Werkzeuge wie NMÜ-Systeme und LLMs zu verzichten. Die hier diskutierten Übersetzungsbeispiele zeigen, dass man mit NMÜ-Systemen und LLMs brauchbare Rohübersetzungen literarischer Texte erstellen und vor allem auch spezifische Übersetzungsprobleme lösen kann, zu denen beispielsweise die Übertragung von Textpassagen in gebundener Rede oder Wortneuschöpfungen gehört. Unabhängig von der Qualität der maschinellen Ausgabe obliegt es jedoch qualifizierten Humanübersetzer:innen beziehungsweise Post-Editor:innen, maschinelle Textfassungen zu publizierbaren literarischen Übersetzungen zu machen. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Trotz vieler Vorteile ist auch im Falle eines umfassenden literarischen Post-Editing mit einer Homogenisierung literarischer Übersetzungen und dadurch auch mit Einbußen im Bereich der übersetzerischen Kreativität zu rechnen (siehe Kolb 2022 und 2023; Guerberof-Arenas und Toral 2024). Wie vor allem Kolb in Publikationen zur Post-Editing-Prozessforschung für literarische Übersetzungen zeigt (2022; 2023), ist eine umfassende Nachbearbeitung und Personalisierung maschineller Übersetzungsvorschläge außerdem mit erheblichem Aufwand verbunden. Die Zeitersparnis durch Teilautomatisierung, die häufig als entscheidender Vorteil des Einsatzes von KI-Systemen auch in der literarischen Übersetzung hervorgehoben wird, dürfte somit deutlich geringer ausfallen als vielfach angenommen. Darum sollte es – sofern keine urheberrechtlichen Vorbehalte bestehen – Humanübersetzer:innen überlassen bleiben, ob und für welche Zwecke sie KI-Anwendungen einsetzen. Auch sollte das literarische Post-Editing als anspruchsvolle und ressourcenintensive Tätigkeit angemessen vergütet werden.
+\end{styleStandard}
+
+\clearpage\begin{styleStandard}
+\textbf{Referenzen}
+\end{styleStandard}
+
+\begin{styleStandard}
+Adhikari, Megharaj. 2018. „Literary Translation in the Age of Machine“. \textit{Nepalese Translation} 2: 27-36.
+\end{styleStandard}
+
+\begin{styleStandard}
+Bayer-Hohenwarter, Gerrit. 2011. „‚Creative Shifts‘ as a Means of Measuring and Promoting Translational Creativity“. \textit{Meta} 56\textbf{ }(3): 662-692. \url{https://doi.org/10.7202/1008339ar}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Daems, Joke. 2022. „Dutch Literary Translators’ Use and Perceived Usefulness of Technology“. In \textit{Using Technologies for Creative-Text Translation}, herausgegeben von James Hadley et al. Routledge, 40–65. \url{https://doi.org/10.4324/9781003094159-3}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+DeepL. „DeepL Terms and Conditions“. Zugriff 03.11.2023. \url{https://www.deepl.com/es/pro-license?tab=free} und \url{https://www.deepl.com/es/pro-license}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+{}-{}-{}-. 2024. „Next-generation Language Model for DeepL Translator“. 02.09.2024. Zugriff 25.09.2024. \url{https://support.deepl.com/hc/en-us/articles/14241705319580-Next-generation-language-model-for-DeepL-Translator}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Gao, Yuan, Ruili Wang, and Feng Hou. 2023. „How to Design Translation Prompts for ChatGPT: An Empirical Study“. \textit{arXiv (Cornell University)}. \url{https://doi.org/10.48550/arxiv.2304.02182}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Guerberof-Arenas, Ana, und Antonio Toral. 2022. „Creativity in Translation: Machine Translation as a Constraint for Literary Texts“. \textit{Translation Spaces} 11\textbf{ }(2): 184–212. \url{https://doi.org/10.1075/ts.21025.gue}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+{}-{}-{}-. 2024. „To Be or Not to Be: A translation Reception Study of a Literary Text Translated into Dutch and Catalan Using Machine Translation“. \textit{Target }36 (2): 215-244. \url{https://doi.org/10.1075/target.22134.gue}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Hackenbuchner, Janiça, und Ralph Krüger. 2023. „DataLitMT – Teaching Data Literacy in the Context of Machine Translation Literacy“. \textit{Proceedings of the 24th Annual Conference of the European Association for Machine Translation}:\textit{ }285–293. \url{https://aclanthology.org/2023.eamt-1.28}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Hadley, James. 2020. „Literary Machine Translation: Are the Computers Coming for Our Jobs?“ \textit{Counterpoint} 4: 14-18. \url{https://ceatl.eu/wp-content/uploads/2023/04/Counterpoint_2020_04.pdf}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+He, Sui. 2024. „Prompting ChatGPT for Translation: A Comparative Analysis of Translation~ Brief and Persona Prompts“. \textit{arXiv (Cornell University)}. \url{https://doi.org/10.48550/arxiv.2403.00127}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Hendy, Amr, Mohamed Abdelrehim, Amr Sharaf, Vikas Raunak, Mohamed Gabr, Hitokazu Matsushita, Young Jin Kim, Mohamed Afify, und Hany Hassan Awadalla. 2023. „How Good Are GPT Models at Machine Translation? A Comprehensive Evaluation“. \textit{arXiv}. 18.02.2023. \url{https://arxiv.org/abs/2302.09210}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Hill, Matthew. 2023. „NHS Interpreting Service Problems Contributed to Patient Deaths“. \textit{BBC News}. 21.11.23. \url{https://www.bbc.com/news/uk-england-bristol-66605536}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Hylak, Veronica. 2023. „Let’s Skip the Buzz Words: A GenAI Technical Crash Course“. \textit{AI in Translation Summit}. \url{https://aiintranslation.com/veronica}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+IGÜ. 2024. “Offener Brief der deutschsprachigen Übersetzer{\textbullet}innenverbände zur KI-Verordnung“. Interessengemeinschaft von Übersetzerinnen und Übersetzern. 07.03.2024. \url{https://www.translators.at/news/offener-brief-der-deutschsprachigen-uebersetzer%E2%88%99innenverbaende-zur-ki-verordnung/}
+\end{styleStandard}
+
+\begin{styleStandard}
+Jiao, Wenxiang, et al. 2023. „Is ChatGPT a Good Translator? Yes With GPT-4 as the Engine“. \textit{arXiv}. 20.01. 2023. \url{https://arxiv.org/abs/2301.08745}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Kissinger, Henry, Eric Schmidt und Daniel Huttenlocher. 2021. \textit{The Age of AI}. John Murray.
+\end{styleStandard}
+
+\begin{styleStandard}
+Kolb, Waltraud. 2022. „Welche Rolle können Maschinen in der Literaturübersetzung spielen?“ \textit{UNIVERSITAS} 1 (22): 19-23.
+\end{styleStandard}
+
+\begin{styleStandard}
+{}-{}-{}-. 2023. „‚I am a bit surprised‘: Literary Translation and Post-editing Processes Compared“. In \textit{Computer-assisted Literary Translation: The State of the Art}, herausgegeben von Andrew Rothwell, Andy Way und Roy Youdale. Routledge\textbf{, }53-68. \url{https://www.taylorfrancis.com/chapters/edit/10.4324/9781003357391-4/bit-surprised-waltraud-kolb}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+{}-{}-{}-, Wolfgang Dressler und Elisa Mattiello. 2023. „Human and Machine Translation of Occasionalisms in Literary Texts“. \textit{Target International Journal of Translation Studies} 35 (4): 540–72. \url{https://doi.org/10.1075/target.21147.kol}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Lee, Tong King. 2023. „Artificial Intelligence and Posthumanist Translation: ChatGPT Versus the Translator“. \textit{Applied Linguistics Review}. \url{https://doi.org/10.1515/applirev-2023-0122}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Lommel, Arle. 2023. „Why Generative AI Is the Best Thing to Happen to Machine Translation“. \textit{AI in Translation Summit}. \url{https://aiintranslation.com/2023-replays}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Macken, Lieve, Bram Vanroy, Luca Desmet und Arda Tezcan. 2022. „Literary Translation as a Three-stage Process: Machine Translation, Post-editing and Revision“. \textit{ACL Anthology}: 101-10. \url{https://aclanthology.org/2022.eamt-1.13/}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Mjölsnes, Ettore. 2022. \textit{Der stumme Text: Eine Kritik der maschinellen Übersetzung}. Digiboo.
+\end{styleStandard}
+
+\begin{styleStandard}
+Nitzke, Jean, Silvia Hansen-Schirra und Carmen Canfora. 2019. „Risk Management and Post-editing Competence“. \textit{The Journal of Specialised Translation} 31: 239-259. \url{https://www.jostrans.org/issue31/art_nitzke.pdf}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Ó Conaill, Seamus. 2018. \textit{Spuds and the Spider}. Illustriert von Daniele Archimede. Gill Books.
+\end{styleStandard}
+
+\begin{styleStandard}
+OpenAI. 2024. „Prompt Engineering“. Zugriff 26.09.2024. \url{https://platform.openai.com/docs/guides/prompt-engineering}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Rossum Press. 2023. from \url{https://rossumpress.org/}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Rothwell, Andrew, et al. 2023. „Current Machine Translation Technologies“. In \textit{Translation Tools and Technologies}, herausgegeben von Andrew Rothwell et al. Routledge, 97-113. \url{https://doi.org/10.4324/9781003160793}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Sánchez-Gijón, Pilar, und Leire Palenzuela-Badiola. 2023. „Analysis and Evaluation of ChatGPT-Induced HCI Shifts in the Digitalised Translation Process“. \textit{Proceedings of the International Conference HiT-IT 2023}, 227–67. \url{https://doi.org/10.26615/issn.2683-0078.2023_021}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Sandrini, Peter. 2022. „Die neuronale didaktische Herausforderung: Berufsbild und Kompetenzen im Wandel“. In \textit{Translation Im Wandel: Gesellschaftliche, konzeptuelle und didaktische Perspektiven}, herausgegeben von Gernot Hebenstreit und Philipp Hofeneder, 115–34. Frank \& Timme. \url{https://doi.org/10.57088/978-3-7329-9129-7}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Siegel, Melanie. 2022. „B 14 Maschinelle Übersetzung“. In \textit{Grundlagen der Informationswissenschaft}, herausgegeben von Rainer Kuhlen, Wolfgang Semar und Christa Womser-Hacker. De Gruyter, 307–16. \url{https://doi.org/10.1515/9783110769043-026}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Taivalkoski-Shilov, Kristiina. 2018. „Ethical Issues Regarding Machine(-assisted) Translation of Literary Texts“. \textit{Perspectives} 27 (5): 689–703. \url{https://doi.org/10.1080/0907676x.2018.1520907}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Vaswani, Ashish, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, and Illia Polosukhin. 2017. “Attention Is All You Need.” arXiv.Org. June 12, 2017. \url{https://arxiv.org/abs/1706.03762}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Woolf, Virginia. 1921/2017. „Blue \& Gree“. In \textit{Monday or Tuesday}. Project Gutenberg. \url{https://www.gutenberg.org/ebooks/29220}. 
+\end{styleStandard}
+
+\begin{styleStandard}
+{}-{}-{}-. 1921/2021. \textit{Meistererzählungen. Collected Stories.} Zweisprachige Ausgabe. Übersetzt von Christel Kröning. Anaconda.
+\end{styleStandard}
+
+\end{document}

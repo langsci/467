@@ -1,0 +1,338 @@
+% This file was converted to LaTeX by Writer2LaTeX ver. 1.4
+% see http://writer2latex.sourceforge.net for more info
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb,amsfonts,textcomp}
+\usepackage{array}
+\usepackage{hhline}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=blue, citecolor=blue, filecolor=blue, urlcolor=blue}
+% footnotes configuration
+\makeatletter
+\renewcommand\thefootnote{\arabic{footnote}}
+\makeatother
+% Text styles
+\newcommand\textstyleFootnoteSymbol[1]{{\fontsize{6.5pt}{7.8pt}\selectfont \textsuperscript{#1}}}
+% Headings and outline numbering
+\makeatletter
+\renewcommand\section{\@startsection{section}{1}{0.25in}{0.1665in}{0.0835in}{\normalfont\normalsize\fontsize{18pt}{21.6pt}\selectfont\rmfamily\bfseries\raggedright}}
+\renewcommand\@seccntformat[1]{\csname @textstyle#1\endcsname{\csname the#1\endcsname}\csname @distance#1\endcsname}
+\setcounter{secnumdepth}{0}
+\newcommand\@distancesection{}
+\newcommand\@textstylesection[1]{#1}
+\makeatother
+\raggedbottom
+% Paragraph styles
+\renewcommand\familydefault{\rmdefault}
+\newenvironment{styleStandard}{\setlength\leftskip{0cm}\setlength\rightskip{0cm plus 1fil}\setlength\parindent{0cm}\setlength\parfillskip{0pt plus 1fil}\setlength\parskip{0in plus 1pt}\writerlistparindent\writerlistleftskip\leavevmode\normalfont\normalsize\fontsize{12pt}{14.4pt}\selectfont\writerlistlabel\ignorespaces}{\unskip\vspace{0.111in plus 0.0111in}\par}
+\newenvironment{styleQuote}{\setlength\leftskip{0.3937in}\setlength\rightskip{0.3937in plus 1fil}\setlength\parindent{0in}\setlength\parfillskip{0pt plus 1fil}\setlength\parskip{0in plus 1pt}\writerlistparindent\writerlistleftskip\leavevmode\normalfont\normalsize\fontsize{12pt}{14.4pt}\selectfont\writerlistlabel\ignorespaces}{\unskip\vspace{0.1965in plus 0.019650001in}\par}
+% List styles
+\newcommand\writerlistleftskip{}
+\newcommand\writerlistparindent{}
+\newcommand\writerlistlabel{}
+\newcommand\writerlistremovelabel{\aftergroup\let\aftergroup\writerlistparindent\aftergroup\relax\aftergroup\let\aftergroup\writerlistlabel\aftergroup\relax}
+\title{}
+\author{Sylvia Jaki}
+\date{2024-10-14}
+\begin{document}
+\title{Digitalisierung in der Audiovisuellen Translation}
+\maketitle
+
+\begin{styleStandard}
+\textbf{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Sylvia Jaki, Universität Hildesheim}
+\end{styleStandard}
+
+\section{Einleitung}
+\begin{styleStandard}
+Der Reiz der verschiedenen Branchen im Bereich der Audiovisuellen Translation (AVT) besteht für viele Translator*innen insbesondere in den kreativen Anteilen ihrer Arbeit – wie lässt sich beispielsweise ein komplexes Wortspiel trotz der Platzbeschränkungen der Untertitelung in eine andere Sprache übertragen oder wie kann ich mithilfe von Audiodeskription einer sehgeschädigten Person die Emotionalität bestimmter visueller Eindrücke vermitteln? Nun hat sich die Arbeit in der AVT durch die vielfältigen Möglichkeiten der Digitalisierung jedoch in mancher Hinsicht tiefgreifend verändert. Die verschiedenen Softwares, die geeignet sind, um die Translate in den verschiedenen AVT-Branchen zu produzieren, sollen den Humanübersetzer*innen die Arbeit merklich erleichtern. Mit der Automatisierung mancher Arbeitsschritte, beispielsweise mit Hilfe von Maschineller Übersetzung (MÜ), können Produktionszeiten noch einmal deutlich verringert werden. Jedoch werden Übersetzenden zum Teil auch Aufgaben abgenommen, die sie als für ihren Beruf zentral einschätzen. 
+\end{styleStandard}
+
+\begin{styleStandard}
+In dieser kurzen Einführung zur Digitalisierung in der AVT soll vor dem Hintergrund der verschiedenen Felder der AVT ein Überblick gegeben werden, welche Technologien die moderne AVT prägen, wenngleich aufgrund der zahlreichen verschiedenen Branchen eine gewisse Schwerpunktsetzung erfolgen muss, die hier vor allem im Bereich der Untertitelung liegt – ein Feld, das bereits sehr stark durch Automatisierungstendenzen geprägt ist und auf das sich auch der Großteil der Forschung konzentriert. Darüber hinaus soll jedoch auch auf weitere Bereiche eingegangen werden. Es geht in diesem Beitrag folglich weniger darum, die umfangreiche Entwicklung der Digitalität von AVT historisch nachzuzeichnen (vgl. für einen historischen Überblick z.B. Díaz-Cintas 2013), sondern die Entwicklungen, die die Branche(n) in den letzten beiden Jahrzehnten oder in manchen Fällen sogar erst in den letzten Jahren zunehmend prägen, zu beleuchten. Überdies wird das Augenmerk auf diejenigen hinter dem Translat gelenkt – die Translator*innen, da sich die Frage stellt, welche Auswirkungen die Digitalisierung der Arbeitsprozesse auf die Arbeitszufriedenheit der in der AVT Beschäftigten ausübt. Der Beitrag schließt mit einem Ausblick auf Forschungsperspektiven, die sich durch die erläuterten Tendenzen in Bezug auf Forschungsgegenstände und -methoden der AVT-Forschung ergeben.
+\end{styleStandard}
+
+\section{Die Felder der Audiovisuellen Translation}
+\begin{styleStandard}
+Bei der Audiovisuellen Translation (AVT) handelt es sich um ein äußerst vielfältiges Betätigungsfeld, in dem es um die Translation von Medienprodukten geht, die von den Rezipierenden typischerweise sowohl über den visuellen als auch über den auditiven Kanal wahrgenommen werden. Das trifft insbesondere auf Filme zu, aber auch auf Videospiele oder Theaterstücke (vgl. z.B. Jüngst 2020 für einen ausführlichen Überblick über die verschiedenen Felder der AVT). Bei der audiovisuellen Übersetzung wird konkreter „das ursprünglich vorliegende Material durch die Übersetzung verändert und meist ergänzt“, wobei „Teile des ursprünglichen Materials erhalten“ bleiben (Jüngst 2020: 1).
+\end{styleStandard}
+
+\begin{styleStandard}
+Wenn Díaz-Cintas (2013: 119) von einer „audiovisualisation of our communicative environment, where sounds and visuals coalesce in a winning combination over other formats, particularly among younger generations“ spricht, verwundert es wenig, dass der Bedarf an AVT enorm gestiegen ist. Allein wenn wir an Streaming-Dienste wie Netflix, Amazon Prime oder Disney Plus denken, wird deutlich, wie stark der Markt für \textit{interlinguale }Übersetzungen in den letzten Jahren gewachsen ist (vgl. auch Georgakopoulou 2019: 521f). Obgleich englische Produkte den Markt weiterhin dominieren, sind es gerade die Streaming-Dienste, die den Weg für ein breiteres internationales Angebot geebnet haben, allen voran für zahlreiche beliebte asiatische Filme und Serien, hauptsächlich aus Südkorea und Japan (vgl. Kluge/Camacho/Lins 2022: 147/149). In diesem Zusammenhang ist auch der Bedarf an interlingualen Untertiteln stark gestiegen, da Rezipierende auf den Streaming-Plattformen Produkte vermehrt in der Originalsprache mit deutschen Untertiteln konsumieren. In Theater und Oper beispielsweise werden zur besseren Sichtbarkeit alternativ Übertitel eingeblendet (vgl. Reinart 2018: 137 für eine Übersicht zahlreicher weiterer Anwendungsfälle für Untertitel, die mittlerweile deutlich über Film und Fernsehen hinausgehen). Gleichzeitig dominiert an anderen Stellen, allen voran im Fernsehen, in einigen Ländern weiterhin die Synchronisation als Standardform der interlingualen Translation von Filmen. So auch in Deutschland, das nach wie vor als Synchronisationsland gilt.\footnote{Weitere Synchronisationsländer in Europa sind beispielsweise Frankreich und Spanien.} Neben Untertitelung und Synchronisation stellt die Voice-Over-Übersetzung eine dritte Form der interlingualen AVT dar. In Deutschland kommt sie standardmäßig in Dokumentationen zum Einsatz, wenn Äußerungen fremdsprachiger Personen übersetzt werden sollen. Dabei wird der Originalton heruntergedreht, während die Übersetzung lauter darübergelegt wird. In einigen osteuropäischen Ländern wird Voice-Over (oft lapidar auch als \textit{slawische Synchro} bezeichnet) auch für Spielfilme eingesetzt, wobei sich mittlerweile ein rückläufiger Trend abzuzeichnen scheint (vgl. Flis/Szarkowska 2024). Ein Gebiet, das in jüngerer Zeit verstärkt Aufmerksamkeit erfährt, ist das der Videospiellokalisierung, für das es ebenfalls eine hohe Nachfrage im Bereich der Übersetzung zwischen verschiedenen Sprachen gibt. Hier finden verschiedenste Formen der AVT Anwendung (vgl. De Wille 2024).
+\end{styleStandard}
+
+\begin{styleStandard}
+Den zweiten großen Bereich in der AVT bilden \textit{intralinguale} Formen der Translation. Der primäre Zweck intralingualer audiovisueller Translate besteht in der Reduktion von Barrieren für Menschen, die nicht in der Lage sind, audiovisuelle Medien über den visuellen oder den auditiven Kanal zu rezipieren. Es handelt sich folglich um eine Übersetzungen innerhalb einer Sprache. Das größte Betätigungsfeld stellt hierbei die Untertitelung für Hörgeschädigte dar (z.B. Mälzer/Wünsche 2018). Untertitel, die nicht im Vorhinein vorproduziert sind, werden als \textit{Live-Untertitel} bezeichnet. Eine weitere intralinguale Translationstechnik ist die Audiodeskription für Sehgeschädigte (vgl. Maszerowska/Matamala/Orero 2014).
+\end{styleStandard}
+
+\section{Möglichkeiten der Digitalisierung in der AVT}
+\begin{styleStandard}
+Zunächst einmal sind zahlreiche Schritte in der AVT insofern ohnehin digital, als sie typischerweise mithilfe spezieller Softwares durchgeführt werden. Dies wird am deutlichsten, wenn wir an die Untertitelung denken – interlinguale Untertitel werden in der Regel mit speziellen Untertitelungssoftwares wie Subtitle Edit, Ooona, EZTitles oder AegiSubs erstellt.\footnote{\ Subtitle Edit stellt laut der European Language Industry Study aktuell sogar das meistgenutzte Untertitelungstool dar (ELIS 2024: 39).} Von daher wäre es beinahe irreführend zu behaupten, dass die Digitalisierung in der AVT an sich etwas gänzlich Neues darstellt. Was hier vor allem gemeint ist, ist die Automatisierung von ~Arbeitsschritten, beispielsweise durch den Einsatz von Künstlicher Intelligenz (KI) zur Übersetzung eines Drehbuchs oder von Untertiteln.
+\end{styleStandard}
+
+\begin{styleStandard}
+Die in der AVT genutzten Automatisierungsmöglichkeiten sind mannigfaltig, wie bereits die in Kurch (2024: 363) dargestellte (nicht-exhaustive) Liste von KI-gestützten Technologien illustriert: Audiosignalverarbeitung, automatische Spracherkennung, alternative Textgenerierung, Neuronale Maschinelle Übersetzung, Sprachsynthese, Direktübersetzung gesprochener Sprache, automatische Bilderkennung, Bildgenerierung und Bildmanipulation. Nachstehend soll auf einige der genannten Technologien überblickshaft eingegangen werden, wobei im Rahmen einer notwendigen Fokussetzung der Bereich der Maschinellen Übersetzung eingehender betrachtet wird und Spracherkennung bzw. Sprachsynthese jeweils punktuell behandelt werden
+\end{styleStandard}
+
+\begin{styleStandard}
+Seit die MÜ durch die Nutzung Neuronaler Netzwerke enorm an Qualität gewonnen hat, eignet sie sich auch zunehmend für mehr oder weniger kreative Übersetzungsleistungen (vgl. de los Reyes Lozano/Mejímas-Climent 2023: 3). Sie wird in der AVT insbesondere für die Übersetzung von Untertiteln verwendet (vgl. z.B. Jaki/Bolz/Röther im Dr.), findet jedoch auch Einsatz in anderen Feldern, zum Beispiel bei der Übersetzung von Drehbüchern oder von Audiodeskriptionsskripten (vgl. Vercauteren/Reviers/Steyaert 2021). Wir sprechen hier zunächst von einer MÜ von Text zu Text. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Ein Forschungszweig, der sich im Speziellen mit der Analyse und/oder Verbesserung der Qualität von mittels MÜ erstellten Untertiteln befasst, hat insbesondere im Zuge des europäischen Projekts SUMAT Aufwind erfahren. Im Projekt wurde schwerpunktmäßig die Qualitäts- und Produktivitätssteigerung von maschinell übersetzten Untertiteln in neun Sprachen angestrebt (vgl. Etchegoyen 2014). Hier kamen jedoch noch keine Neuronalen Netzwerke ins Spiel; stattdessen wurde auf Basis statistischer MÜ gearbeitet. Mit EMMA und TraMOOC starteten zwei weitere internationale Projekte, die es zum Ziel hatten, die Untertitelung mit Hilfe von MÜ voranzubringen, beide am Beispiel von Lehrvideos (vgl. de los Reyes Lozano/Mejímas-Climent 2023: 4f und Georgakopoulou 2019: 526-528 für einen Überblick an Projekten). Seither bringen insbesondere die großen computerlinguistische Konferenzen eine Vielzahl von Versuchen zur Steigerung der Übersetzungsqualität hervor. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Eine Schwierigkeit bei der Untertitelung mithilfe von MÜ-Technologien, die ausschließlich die sprachliche Komponente berücksichtigen, liegt darin, der Notwendigkeit der Kürzung in der Untertitelung nachzukommen. Zwar ist das Ausgangsprodukt häufig ebenfalls ein Untertitel, jedoch handelt es sich hierbei oft um Verbatim-Untertitel, also um Texte ohne die erforderlichen Kürzungen, die bei der interlingualen Untertitelung zwangsläufig zum Tragen kommen müssen. Bei der Humanübersetzung ergeben sich viele Kürzungsmöglichkeiten infolge intersemiotischer Redundanzen, über die AVT-Produkte von Natur aus verfügen und die bewirken, dass meist nicht der vollständige Text übertragen werden muss (vgl. Reinart 2018: 136). Allerdings beschäftigt sich die Forschung bereits seit Jahren mit der Frage, wie der Output von MÜ so gestaltet werden kann, dass Aspekte wie Textmenge, Standzeiten, Umbrüche usw. berücksichtigt werden können (vgl. z.B. Lakew/Gangi/Federico 2019, Matusov/Wilken/Georgakopoulou 2019). Auch die Übersetzung mittels LLMs, so insbesondere mit dem häufig genutzten ChatGPT, birgt durchaus die Option, mithilfe von Promptings Richtlinien zu implementieren. Insbesondere bei ChatGPT ist jedoch zu beachten, dass sich aufgrund der Urheberrechte oft rechtliche Probleme ergeben, die eine Nutzung des Tools für manche Zwecke von vornherein ausschließen. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Bei der Qualität des automatisiert erzeugten Outputs gilt, dass die Qualität des Ergebnisses maßgeblich von den verfügbaren Daten abhängt. Dies bedeutet im Fall der Untertitelung zum Beispiel, dass eine Übersetzung aus einer relativ seltenen Sprache ins Deutsche, wofür naturgemäß weniger Sprachdaten vorliegen, sehr wahrscheinlich zu einem schlechteren Ergebnis führen wird. Zu bedenken ist allerdings, dass in vielen Fällen mit (vorgespotteten) englischsprachigen Templates\footnote{\textstyleFootnoteSymbol{\ }Ein Template kann definiert werden als „subtitle [FB01?]le with time codes and dialogue segmented into subtitle chunks“ (Oziemblewska/Szarkowska 2022: 433). Die enthaltenen Time Codes können entweder adaptierbar sein oder nicht – im ersten Fall spricht man von\textit{ unlocked}, im zweiten Fall von\textit{ locked }Templates (vgl. Oziemblewska/Szarkowska 2022: 435).} gearbeitet wird. Ein beispielsweise koreanisches Filmprodukt wird also meist nicht als solches ins Deutsche übersetzt, sondern über die Mittlersprache Englisch, die dann als Vorlage für verschiedene Sprachversionen genutzt wird – folglich liegt eine indirekte oder auch Pivot- bzw. Relais-Übersetzung vor (vgl. Kluge/Camacho/Lins 2022). In der Regel ist bei allen angewendeten Verfahren auf den sog. \textit{Human in the Loop} mitnichten zu verzichten, sondern es wird auf verschiedene Schritte des Post-Editings (vgl. O’Brien 2022) zurückgegriffen, um die Qualität der maschinell erstellten Erzeugnisse zu optimieren. Dennoch kommen Hagström und Pedersen (2022: 223) anhand einer Korpusstudie zu dem Schluss, dass sich die seit den 2020ern verstärkt eingesetzte MÜ von Untertiteln negativ auf deren Qualität auswirkt: 
+\end{styleStandard}
+
+\begin{styleQuote}
+[T]he 2020s subtitles in our material were more fast-paced, more oral, less cohesive, less complete, and constructed with less meticulous punctation and line-breaks than their predecessors. They were also of significantly lower quality in all areas investigated.
+\end{styleQuote}
+
+\begin{styleStandard}
+Eine Steigerung von \textit{Text-to-Text}{}-Systemen stellen Systeme dar, die verschiedene Modelle vereinen und somit nicht nur Teile des Translationsprozesses (also beispielsweise die interlinguale Übersetzung durch MÜ oder die Transkription gesprochener Sprache per Spracherkennung), sondern den gesamten Prozess automatisieren. Wurde dies zunächst vor allem über ein Kaskadenmodell (also bspw. einer Kombination von Spracherkennung und MÜ) erreicht, werden heute direkte Ansätze immer gängiger (vgl. Bentivogli et al. 2021 zu einem Vergleich der Ansätze). So arbeiten beispielsweise Papi et al. (2023) für sieben Sprachenpaare mit „direct speech-to-text translation models to fully automatize the subtitling process, including translation, segmentation into subtitles, and timestamp estimation“ (Papi et al. 2023: 1368). Zu erwähnen sind auch moderne multimodale Translationsmodelle, die zur Optimierung von maschinell übersetzten Texten visuelle Informationen mit einfließen lassen (z.B. Li et al. 2023).
+\end{styleStandard}
+
+\begin{styleStandard}
+In anderen Bereichen der AVT ist die Verwendung von KI-gestützten Technologien noch weniger Standard als in der Untertitelung, jedoch haben die letzten Jahre hier ebenfalls rapide Fortschritte gezeigt (vgl. Kurch 2024 für einen aktuellen Überblick über KI-gestützt erstellte Arten von AVT-Produktionen). Eine zunehmende Rolle spielt beispielsweise Sprachsynthese, die vor allem in Synchronisation, Audiodeskription und Voice-Over-Übersetzung verwendet wird (Georgakopoulou 2019: 529f für einen Überblick). Zur Erzeugung intralingualer Untertitel wird häufig mit Spracherkennung gearbeitet, besonders bei Live-Untertiteln für Hörgeschädigte (Romero-Fresco/Fresno 2023). Auch abseits der Untertitelung finden wir vermehrt Versuche, den kompletten Translationsprozess mittels multimodal arbeitender Systeme zu automatisieren. Dies betrifft beispielsweise die vollautomatische Erstellung von Audiodeskriptionen (z.B. in Wang 2021). Auch bei der Synchronisation werden vollumfängliche Möglichkeiten genutzt, angefangen bei der MÜ von Drehbüchern über die Imitation der originalen Sprecherstimme bis hin zur Anpassung der ursprünglichen Lippenbewegungen auf den Zieltext (z.B. Federico et al. 2020; vgl. Granell/Chaume 2023: 28-30 oder Baños 2023 für einen Überblick). 
+\end{styleStandard}
+
+\section{Digitalisierung und Berufsbild}
+\begin{styleStandard}
+Ziel der zunehmenden Digitalisierung verschiedener Arbeitsschritte in der AVT ist in erster Linie eine Arbeitserleichterung, die mit schnelleren Produktionszeiten einhergeht. Bei tiefgreifenden Veränderungen wie den in Abschnitt 3 beschriebenen stellt sich jedoch auch immer die Frage, wie sich diese Entwicklungen auf die Berufstätigen auswirken. Dies ist umso relevanter, als die zahlreichen Möglichkeiten der Digitalisierung auch maßgeblich auf die Workflows in der Branche Einfluss nehmen (vgl. z.B. Reinart 2018: 146 zur Untertitelung). Neben den oben genannten Entwicklungen gehört hierzu auch das immer häufiger genutzte cloudbasierte Arbeiten (vgl. Bolaños-García-Escribano/Díaz-Cintas 2020), das u. a. den Vorteil birgt, relativ einfach Tools wie Terminologiemanagement oder MÜ integrieren zu können (vgl. Oziemblewska/Szarkowska 2022: 435). Cloudbasiertes Arbeiten im Vergleich zur Nutzung von Desktop-Lösungen ist besonders beliebt bei internationalen Unternehmen (vgl. Oziemblewska/Szarkowska 2022: 444). Wie Tardel (2023) für die inter- und intralinguale Untertitelung eindrücklich demonstriert, handelt es sich generell um zunehmend ausdifferenzierte Arbeitsprozesse, die essentiell davon abhängen, welche Grade und Möglichkeiten der Automatisierung an welchen Stellen eingesetzt werden.
+\end{styleStandard}
+
+\begin{styleStandard}
+Der Fokus auf die Perspektive der Translator*innen anstelle einer Produktanalyse wird auch als \textit{translator studies }bezeichnet, in denen Translator*innen als Individuen mit ihren persönlichen Einstellungen in den Vordergrund gerückt werden (Risku 2024: 67) und auf eine \textit{humanization} der Übersetzungswissenschaft abgezielt wird (Risku 2024: 72). Wie Künzli (2024: 104) betont, „ist das Feld bezüglich Audiovisual Translator Studies und insbesondere Subtitler Studies noch weitgehend unbestellt“. Aus diesem Grund ist es sinnvoll, dass sich die Forschung zur Digitalisierung in der AVT auch mit der Perspektive der Translator*innen befasst. Hierbei findet eine Reihe wissenschaftlicher Methoden Anwendung, die Aufschlüsse zur Arbeitszufriedenheit und zum wahrgenommenen Berufsbild liefern können, so zum Beispiel Umfragen (die sicherlich häufigste Methode zur Erhebung der Arbeitszufriedenheit), Interviews und ferner E-Mail-Interviews.
+\end{styleStandard}
+
+\begin{styleStandard}
+Da Arbeitsbedingungen immer kontextabhängig sind, analysieren einige Untersuchungen die Arbeitszufriedenheit von audiovisuellen Translator*innen vor einem konkreten nationalen Hintergrund. Eine umfangreiche nationale Fragebogenstudie mit 459 Literatur-, Fach- und Filmübersetzer*innen, durchgeführt von Ruokonen und Mäkisalo (2018), beleuchtet beispielsweise den finnischen Kontext. Bei den 57 befragten audiovisuellen Translator*innen zeigte sich eine Korrelation zwischen Arbeitszufriedenheit und der Höhe des Einkommens sowie, allerdings bei allen drei Gruppen, eine proportional zur Länge der Arbeitserfahrung empfundene Wertigkeit der eigenen Arbeit – also je länger die Arbeitserfahrung, desto höher die empfundene Wertigkeit (vgl. Ruokonen und Mäkisalo 2018: 11f). Ein interessanter Befund betrifft die Tatsache, dass von den drei Gruppen die audiovisuellen Translator*innen den am niedrigsten empfundenen Status der drei Übersetzer*innengruppen besaßen (vgl. Ruokonen und Mäkisalo 2018: 14), was wiederum eine vergleichsweise niedrige Arbeitszufriedenheit vermuten lässt. Weitere nationale Studien sind beispielsweise Jankowska (2012) zur AVT in Polen, Nikolić (2010) zur Untertitelung in Kroatien und Silvester (2022) zu einer Gruppe von Untertitler*innen in Frankreich. Wie Künzli (2024: 106) zu seiner Aufarbeitung des Forschungsstandes resümiert, zeigen die bisherigen Forschungsergebnisse, dass die Wahrnehmung der Arbeitsbedingungen vielfältig ist.
+\end{styleStandard}
+
+\begin{styleStandard}
+Der deutsche Kontext wird unter anderem in der bekanntesten und größten Studie abgedeckt: Die European Language Industry Study (ELIS) ist eine umfangreiche Fragebogenstudie, die jährlich weltweit durchgeführt wird.\footnote{\ Vgl. die verschiedenen Durchgänge auf https://elis-survey.org/.} Für das Jahr 2024 nahmen 17 Unternehmen und 57 Einzelpersonen aus Deutschland teil (vgl. ELIS 2024: 6). Die Ergebnisse der Umfragerunde des Jahres 2024 legen nahe, dass die Übersetzenden (und darunter insbesondere die älteren Translator*innen) durch den verstärkten Einsatz von KI bezüglich der Rentabilität des Freelance-Übersetzens pessimistischer geworden sind (vgl. ELIS 2024: 22). Diese Sorge wird von den Befragten häufig explizit mit dem vermehrten Einsatz von MÜ bzw. anderen Technologien sowie mit einer Verschiebung des Aufgabenbereichs in Richtung weniger gut bezahlter Tätigkeiten im Post-Editing assoziiert (vgl. ELIS 2024: 26). Allerdings deckt ELIS verschiedenste Translationsbranchen ab, so dass die Ergebnisse nicht exklusiv die AVT betreffen. Insgesamt enthält die Studie nur wenige Fragen, die gezielt in Bezug auf die AVT erhoben werden (so z.B. zu den verwendeten Tools, vgl. Fußnote 2).
+\end{styleStandard}
+
+\begin{styleStandard}
+Eine weitere, kleinere Fragebogenstudie (59 Teilnehmende), die auf die Nutzung von KI-gestützten Systemen und die damit verbundenen Einstellungen von Translator*innen speziell in der audiovisuellen Translation abzielt, ist Jaki/Bolz/Röther (im Dr.). Im Unterschied zu ELIS werden in dieser Untersuchung ausschließlich auf AVT spezialisierte Übersetzer*innen aus dem deutschsprachigen Raum befragt. Was die Einstellungen der teilnehmenden Translator*innen zu KI-gestützten Technologien sowie das damit verbundene Bild der AVT in Zeiten der Digitalisierung betrifft, sind die Befindlichkeiten auf den ersten Blick heterogen: Laut den Befragten ist das Feld positiver und negativer Einstellungen zu KI-gestützten Tools in der AVT recht ausgewogen. Wenn man jedoch nach der wahrgenommenen Qualität von Translaten fragt, die KI-gestützt (besonders durch MÜ) erzeugt werden, erscheint das Bild auffallend negativ.\footnote{\ Läubli/Orrego-Carmora (2017) erzielen mit Hilfe der Analyse von Social-Media-Daten ähnliche Befunde. } Ähnlich wie in ELIS (2024) wird in Jaki/Bolz/Röther (im Dr.) die Sorge vor Preisdumping aufgrund von vermehrten, und schlecht bezahlten, Post-Editing-Aufgaben verbalisiert.\footnote{\ Vgl. auch Szarkowska/Díaz-Cintas/Gerber-Morón (2021: 666/669), die im Rahmen einer internationalen Befragung zum Qualitätsempfinden von professionellen Untertitler*innen aus 27 Ländern beobachten, dass einige der Befragten die fallenden Preise für den Rückgang der Untertitelqualität verantwortlich machen.} Auch wird vereinzelt der Verlust kreativen Arbeitens beklagt. Teilweise besteht sogar die Befürchtung, dass Humanübersetzer*innen zukünftig überhaupt nicht mehr benötigt werden.
+\end{styleStandard}
+
+\begin{styleStandard}
+Noch spezialisierter ist Künzlis (2024) Untersuchung mit 19 Untertitler*innen (ebenfalls aus dem deutschsprachigen Markt), in der die Daten mithilfe von E-Mail-Interviews erhoben werden. Im Gegensatz zu zahlreichen anderen Untersuchungen liegt der Fokus in Künzli (2024) auf Faktoren, die sich positiv auf die Arbeitszufriedenheit der befragten Personen auswirken. Zu diesen Faktoren gehören beispielsweise die Aspekte Arbeitssicherheit durch regelmäßige Auftragserteilungen, die Möglichkeit zum direkten Austausch im Projektteam und zur Teilhabe an Entscheidungen sowie das Feedback zu den Untertiteln durch den Auftraggebenden. Ein weiterer Punkt, der positiv mit der Arbeitszufriedenheit der Befragten korreliert und sich auf die Fragmentierung der Arbeitsprozesse durch eine gesteigerte Digitalisierung bezieht, ist die Möglichkeit, am gesamten Untertitelungsprozess mitwirken zu können (also zum Beispiel keinen vorgespotteten Text zu erhalten).
+\end{styleStandard}
+
+\section{Ausblick}
+\begin{styleStandard}
+Die Digitalisierung in der AVT, „eine[m] der am schnellsten wachsenden Forschungsfelder in der Übersetzungswissenschaft“ (Künzli/Kaindl 2024: 13), bringt neue Herausforderungen für alle der drei Grundperspektiven der Translationsforschung: die Produktforschung, die Produzenten- bzw. Prozessforschung und die Rezeptionsforschung. Die \textit{Produktforschung }macht, und dies nicht nur in der AVT-Forschung, sicherlich den größten Teil der Untersuchungen aus. Waren lange Zeit Themen wie beispielsweise die Synchronisation von Humor oder die Untertitelung von Kulturspezifika „klassische“ Themen für studentische Abschlussarbeiten wie auch wissenschaftliche Artikel, tritt nun verstärkt die Performanz von MÜ bzw. die Übersetzung durch LLMs in den Fokus derartiger wissenschaftlicher Erzeugnisse. Mindestens bis der rapide Anstieg in der Qualität des Outputs solcher Technologien gesättigt ist, wird sich die Forschung ausführlich mit der Translationsqualität in Bezug auf verschiedenste sprachliche bzw. textuelle Merkmale, in Bezug auf verschiedenste Textsorten und Sprachenpaare befassen. Da gerade im Bereich der Untertitelung eine starke Tendenz zur MÜ besteht (vgl. z.B. Jaki/Bolz/Röther im Dr.), ist zu erwarten, dass dieser Bereich, der bereits im Vergleich zu den andere Feldern am häufigsten erforscht wird, auch weiterhin stark im Zentrum des Interesses von Forschenden stehen wird. Eine vollautomatisierte Produktion mittels KI-Technologien erzielt in der AVT bislang jedoch noch keine zufriedenstellenden Ergebnisse (vgl. Kurch 2024: 366). Daher wird die Forschung auch die Frage, wie die Performanz der Systeme verbessert werden kann, beispielsweise durch Pre-Editing (vgl. z.B. Hiraoka/Yamada 2019), begleiten, und zwar insbesondere bei den intersemiotisch arbeitenden Technologien (z.B. \textit{Image-to-Text}), bei denen im Vergleich zur \textit{Text-to-Text}{}-Übersetzung noch größerer Verbesserungsbedarf besteht. Interessant sind in diesem Zusammenhang auch sogenannte \textit{Shared Tasks}, die die Möglichkeit bieten, Systeme zur automatisierten Erfüllung einer Aufgabe im Bereich der AVT wettbewerbsmäßig zu erproben, wie zum Beispiel die verschiedenen Tracks der \textit{International Conference on Spoken Language Translation (IWSLT)} 2024\footnote{\ Einen Überblick über die verschiedenen Shared Tasks (z.B. zur automatisierten Synchronisation oder Untertitelung) erhält man auf \url{https://iwslt.org/2024/}. }. Vermutlich wird in den nächsten Jahren die Entwicklung und Evaluation von vollautomatischen oder gar multimodalen Systemen noch deutlich zunehmen. Wie sich bisher gezeigt hat, besteht auch eine Schwierigkeit in der Evaluation solcher, aber auch einfacher \textit{Text-to-text}{}-Systeme. Die Evaluation von Translationsqualität für MÜ in der AVT stellt schließlich im Vergleich zu anderen Translationsarten sehr spezifische Anforderungen (vgl. z.B. Burchardt et al. 2016). 
+\end{styleStandard}
+
+\begin{styleStandard}
+Vergleichsweise weniger Aufmerksamkeit als die Produktperspektive erhalten die \textit{Produktions- }und \textit{Rezeptionsperspektive}, wenngleich sie in den letzten Jahren einen deutlichen Aufschwung erfahren haben (vgl. Díaz-Cintas/Szarkowska 2020). Wie die Umfrageergebnisse in Jaki/Bolz/Röther (im Dr.) nahelegen, ist die Vorstellung der Translator*innen von den Qualitätsansprüchen der Rezipierenden eher negativ. Alleine schon deshalb muss künftige Forschung noch verstärkt zeigen, wie automatisiert erstellte audiovisuelle Translate von der Zielgruppe wahrgenommen werden. Dazu gehört die Frage, unter welchen Umständen welchen Arten von Fehlern zu Missverständnissen führen oder welche Fehler vielleicht nicht einmal wahrgenommen werden – die Untersuchung von Qiu und Pym (2024) legt beispielsweise nahe, dass Zuschauer*innen eher geneigt sind, Fehlern gegenüber „gnädig“ zu sein, wenn sie den Inhalt des Produkts als sehr unterhaltsam empfinden. Eine weitere Fallstudie mit finnischen und deutschen Untertiteln kommt zu dem Schluss, dass die human erzeugten Untertitel von den Rezipient*innen zwar als besser eingestuft wurden, aber es keinen Grund zur Annahme gibt, dass die Rezipient*innen längere Zeit für das Lesen maschineller erstellter Untertitel aufwenden (Schierl 2023: 50). Eine Studie von Calvo-Ferrer (2023) mit spanischen Studierenden der Übersetzungs- und Dolmetschwissenschaft kommt sogar zu dem Ergebnis, dass nur die fortgeschrittenen Studierenden den Unterschied zwischen menschlich erstellten und von ChatGPT generierten Untertiteln erkennen. Diese Befunde scheinen in einem scharfen Kontrast zu den Empfindungen von professionellen Translator*innen zu stehen, die in Jaki/Bolz/Röther (im Dr.) fast durchweg eine sehr negative Einstellung zur Qualität maschinell erstellter Übersetzungen äußern. Dies legt zwei Dinge nahe: Ersten muss die Robustheit der oben genannten Befunde über einzelne Fallstudien hinaus, auch vor dem Hintergrund der Weiterentwicklung der Technologien, weiter getestet werden. Obwohl in diesem Bereich die Forschung zur Untertitelung noch dominiert, sind auch für die anderen Bereiche der AVT, in denen sich für die Automatisierung der Arbeitsprozesse eine immer höhere technologische Performanz beobachten lässt, künftig interessante Ergebnisse zu erwarten. Zweitens, und hiermit soll dieser Beitrag schließen, lenkt der beschriebene Kontrast das Augenmerk auch auf den Bereich der Produktionsforschung. 
+\end{styleStandard}
+
+\begin{styleStandard}
+Hier eröffnet sich ein weites Feld an Perspektiven: Zunächst gilt es die neuen, diversifizierten und komplexen Workflows zu erforschen, die sich durch die unterschiedlichen Grade und Formen der Automatisierung in den verschiedenen Bereichen der AVT ergeben (vgl. Tardel 2023 für die Untertitelung) – hier besteht gerade auch Bedarf außerhalb der Untertitelung, wo die Automatisierung zum Teil noch nicht in den Alltag der Translator*innen integriert ist (so werden Audiodeskriptionen teilweise noch in Word-Dokumenten geliefert). Überdies ist es sinnvoll, durch Prozessstudien mit Hilfe von empirischen Methoden wie Eye-Tracking, Keylogging oder Bildschirmaufzeichnungen (vgl. Tardel/Hansen-Schirra 2024: 294-296) zu untersuchen, wie die Translator*innen mit MÜ, LLMs, automatisierter Spracherkennung und andere Technologien interagieren, um zu erkennen, welche Herausforderungen und Erleichterungen sie bringen, aber zuletzt auch, um hieraus Lehren für die Ausbildung von Translator*innen zu ziehen. Schließlich bleibt abzuwarten, wie sich die Einstellungen der Translator*innen zu KI-gestützten Technologien vor dem Hintergrund der Entwicklung dieser Technologien und der Routinisierung in der Arbeit mit ihnen im AVT-Sektor in den nächsten Jahren entwickeln werden. Ob die Technologien in Zukunft als echte Hilfe oder weiterhin als existenzielle Bedrohung angesehen werden, ist aber natürlich auch mit abhängig von der Preisentwicklung in den Branchen. In jedem Fall ist es jedoch auch sinnvoll zu beleuchten, inwiefern die Repräsentation durch und der Austausch in Berufsverbänden wie dem AVÜ (vgl. Nagel 2024) in einem Feld, das maßgeblich von individuell arbeitenden Freelancer*innen geprägt ist, auf die Einstellungen und das Berufsbild womöglich sogar positiven Einfluss nehmen kann. 
+\end{styleStandard}
+
+\section{Literatur}
+\begin{styleStandard}
+Baños, R. (2023). Key challenges in using automatic dubbing to translate educational YouTube videos. \textit{Linguistica Antverpiensia, New Series: Themes in Translation Studies,} \textit{22}, 61–79.
+\end{styleStandard}
+
+\begin{styleStandard}
+Bentivogli, L., Cettolo, M., Gaido, M., Karakanta, A., Martinelli, A., Negri, M., \& Turchi, M. (2021). \textit{Cascade versus Direct Speech Translation: Do the Differences Still Make a Difference?} (Version 1). arXiv. \url{https://doi.org/10.48550/ARXIV.2106.01045}
+\end{styleStandard}
+
+\begin{styleStandard}
+Bolaños-García-Escribano, A., \& Díaz-Cintas, J. (2020). The Cloud Turn in Audiovisual Translation. In Ł. Bogucki \& M. Deckert (Hrsg.), \textit{The Palgrave Handbook of Audiovisual Translation and Media Accessibility} (S. 519–544). Springer International Publishing. \url{https://doi.org/10.1007/978-3-030-42105-2_26}
+\end{styleStandard}
+
+\begin{styleStandard}
+Burchardt, A., Lommel, A., Bywood, L., Harris, K., \& Popović, M. (2016). Machine translation quality in an audiovisual context. \textit{Target. International Journal of Translation Studies}, \textit{28}(2), 206–221. \url{https://doi.org/10.1075/target.28.2.03bur}
+\end{styleStandard}
+
+\begin{styleStandard}
+Calvo-Ferrer, J. R. (2023). Can you tell the difference? A study of human vs machine-translated subtitles. \textit{Perspectives}, 1–18. \url{https://doi.org/10.1080/0907676X.2023.2268149}
+\end{styleStandard}
+
+\begin{styleStandard}
+De los Reyes Lozano, J., \& Mejías-Climent, L. (2023). Beyond the black mirror effect: The impact of machine translation in the audiovisual translation environment. \textit{Linguistica Antverpiensia, New Series: Themes in Translation Studies}, \textit{22}, 1–19.
+\end{styleStandard}
+
+\begin{styleStandard}
+De Wille, T. (2024). Videospielübersetzung. In A. Künzli \& K. Kaindl (Hrsg.), \textit{Handbuch Audiovisuelle Translation: Arbeitsmittel für Wissenschaft, Studium, Praxis} (S. 161–172). Frank \& Timme.
+\end{styleStandard}
+
+\begin{styleStandard}
+Díaz-Cintas, J. (2013). The technology turn in subtitling. In M. Thelen \& B. Lewandowska-Tomaszczyk (Hrsg.), \textit{Translation and Meaning – Part 9} (S. 119–132). Maastricht School of Translation and Interpreting, Zuyd University of Applied Sciences Maastricht.
+\end{styleStandard}
+
+\begin{styleStandard}
+Díaz-Cintas, J., \& Szarkowska, A. (2020). Introduction: Experimental Research in Audiovisual Translation – Cognition, Reception, Production. \textit{The Journal of Specialised Translation}, \textit{33}, 3–16.
+\end{styleStandard}
+
+\begin{styleStandard}
+ELIS Research. (2024). \textit{European Language Industry Survey 2024. Trends, expectations and concerns of the European language industry.} \url{https://elis-survey.org/wp-content/uploads/2024/03/ELIS-2024-Report.pdf}
+\end{styleStandard}
+
+\begin{styleStandard}
+Etchegoyhen, T., Bywood, L., Fishel, L., Georgakopoulou, P., Jiang, Jie, van Loenhout, G., del Pozo, A., Sepesy Mauˇcec, M., Turner, A., \& Volk, M. (2014). \textit{Machine Translation for Subtitling: A Large-Scale Evaluation}. 46–53. \url{http://www.lrec-conf.org/proceedings/lrec2014/pdf/463_Paper.pdf}
+\end{styleStandard}
+
+\begin{styleStandard}
+Federico, M., Enyedi, R., Barra-Chicote, R., Giri, R., Isik, U., Krishnaswamy, A., \& Sawaf, H. (2020). From Speech-to-Speech Translation to Automatic Dubbing. \textit{Proceedings of the 17th International Conference on Spoken Language Translation}, 257–264. \url{https://doi.org/10.18653/v1/2020.iwslt-1.31}
+\end{styleStandard}
+
+\begin{styleStandard}
+Flis, G., \& Szarkowska, A. (2024). Voice-over country? Okay, Boomer. How young viewers are disrupting the AVT landscape in Poland. \textit{The Journal of Specialised Translation}, \textit{42}, 193–216. \url{https://doi.org/10.26034/cm.jostrans.2024.5989}
+\end{styleStandard}
+
+\begin{styleStandard}
+Georgakopoulou, P. (2019). Technologization of AVT. In L. Pérez-González (Hrsg.), \textit{The Routledge Handbook of Audiovisual Translation} (S. 526–539). Routledge.
+\end{styleStandard}
+
+\begin{styleStandard}
+Granell, X., \& Chaume, F. (2023). Audiovisual translation, translators, and technology: From automation pipe-dream to human–machine convergence. \textit{Linguistica Antverpiensia, New Series: Themes in Translation Studies}, \textit{22}, 20–40.
+\end{styleStandard}
+
+\begin{styleStandard}
+Hagström, H., \& Pedersen, J. (2022). Subtitles in the 2020s: The Influence of Machine Translation. \textit{Journal of Audiovisual Translation}, \textit{5}(1), 207–225. \url{https://doi.org/10.47476/jat.v5i1.2022.195}
+\end{styleStandard}
+
+\begin{styleStandard}
+Hiraoka, Y., \& Yamada, M. (2019). Pre-editing Plus Neural Machine Translation for Subtitling: Effective Pre-editing Rules for Subtitling of TED Talks. \textit{Proceedings of Machine Translation Summit XVII: Translator, Project and User Tracks}, 64–72. \url{https://aclanthology.org/W19-6710.pdf}
+\end{styleStandard}
+
+\begin{styleStandard}
+Jaki, S., Bolz, M., \& Röther, S. (im Druck). KI-Technologien in der Audiovisuellen Translation. Umfrageergebnisse aus der deutschen Translationsindustrie. \textit{trans-kom}.
+\end{styleStandard}
+
+\begin{styleStandard}
+Jankowska, A. (2012). “I do what I like, and I don’t have to go to work every day”: The status quo ofaudiovisual translators in Poland. In S. Bruti \& E. Di Giovanni (Hrsg.), \textit{Audiovisual Translation across Europe: An Ever-changing Landscape} (S. 35–58). Peter Lang.
+\end{styleStandard}
+
+\begin{styleStandard}
+Jüngst, H. E. (2020). \textit{Audiovisuelles Übersetzen: Ein Lehr- und Arbeitsbuch} (2., überarbeitete und erweiterte Auflage). Narr Francke Attempto.
+\end{styleStandard}
+
+\begin{styleStandard}
+Kluge, B., Camacho, L., \& Lins, A. (2022). Indirekte Übersetzung, oder: Warum auch Linguist*innen wissen sollten, wie Netflix seine Filme untertitelt. \textit{Romanistik in Geschichte und Gegenwart}, \textit{28}(2), 147–158. \url{https://doi.org/10.46771/9783967694185_6}
+\end{styleStandard}
+
+\begin{styleStandard}
+Künzli, A. (2024). „Aber ein toller Film reicht, und man ist wieder Feuer und Flamme für den Beruf“. Zur Arbeitszufriedenheit von Untertitel-ExpertInnen. In M. Kadrić, W. Kolb, \& S. Pöllabauer (Hrsg.), \textit{Translation als Gestaltung: Beiträge für Klaus Kaindl zur translatorischen Theorie und Praxis} (S. 103–115). Narr Francke Attempto.
+\end{styleStandard}
+
+\begin{styleStandard}
+Künzli, A., \& Kaindl, K. (2024). Einleitung. In A. Künzli \& K. Kaindl (Hrsg.), \textit{Handbuch Audiovisuelle Translation: Arbeitsmittel für Wissenschaft, Studium, Praxis} (S. 13–19). Frank \& Timme.
+\end{styleStandard}
+
+\begin{styleStandard}
+Kurch, A. (2024). Technologische Entwicklungen in der AVT. In A. Künzli \& K. Kaindl (Hrsg.), \textit{Handbuch Audiovisuelle Translation: Arbeitsmittel für Wissenschaft, Studium, Praxis} (S. 361–375). Frank \& Timme.
+\end{styleStandard}
+
+\begin{styleStandard}
+Lakew, S. M., Di Gangi, M., \& Federico, M. (2019). Controlling the Output Length of Neural Machine Translation. \textit{Proceedings of the 16th International Conference on Spoken Language Translation}, o.S.
+\end{styleStandard}
+
+\begin{styleStandard}
+Läubli, S., \& Orrego-Carmona, D. (2017). When Google Translate is better than Some Human Colleagues, those People are no longer Colleagues. \textit{Proceedings of the 39th Conference Translating and the Computer, pages 59–69,London, UK, November 16-17, 2017. c}, 59–69. \url{https://doi.org/10.5167/UZH-147260}
+\end{styleStandard}
+
+\begin{styleStandard}
+Li, Y., Shimizu, S., Chu, C., Kurohashi, S., \& Li, W. (2023). Video-Helpful Multimodal Machine Translation. \textit{Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing}, 4281–4299. \url{https://doi.org/10.18653/v1/2023.emnlp-main.260}
+\end{styleStandard}
+
+\begin{styleStandard}
+Mälzer, N., \& Wünsche, M. (o.~J.). Untertitel für Hörgeschädigte (SDH). In C. Maaß \& I. Rink (Hrsg.), \textit{Handbuch Barrierefreie Kommunikation} (S. 327–344). Frank \& Timme.
+\end{styleStandard}
+
+\begin{styleStandard}
+Maszerowska, A., Matamala, A., \& Orero, P. (Hrsg.). (2014). \textit{Audio description: New perspectives illustrated}. John Benjamins Publishing Company. \url{https://doi.org/10.1075/btl.112}
+\end{styleStandard}
+
+\begin{styleStandard}
+Matamala, A., \& Ortiz-Boix, C. (2016). Accessibility and multilingualism: An exploratory study on the machine translation of audio descriptions. \textit{TRANS. Revista de traductología}, \textit{20}, 11–24. \url{https://doi.org/10.24310/TRANS.2016.v0i20.2059}
+\end{styleStandard}
+
+\begin{styleStandard}
+Matusov, E., Wilken, P., \& Georgakopoulou, P. (2019). Customizing Neural Machine Translation for Subtitling. \textit{Proceedings of the Fourth Conference on Machine Translation (WMT), Volume 1: Research Papers}, 82–93. \url{https://aclanthology.org/W19-5209.pdf}
+\end{styleStandard}
+
+\begin{styleStandard}
+Nagel, S. (2024). Berufsverbände in der audiovisuellen Übersetzungsbranche. In A. Künzli \& K. Kaindl (Hrsg.), \textit{Handbuch Audiovisuelle Translation: Arbeitsmittel für Wissenschaft, Studium, Praxis} (S. 265–272). Frank \& Timme.
+\end{styleStandard}
+
+\begin{styleStandard}
+Nikolić, K. (2010). The subtitling profession in Croatia. In J. Díaz-Cintas, A. Matamala, \& J. Neves (Hrsg.), \textit{New insights into audiovisual translation and media accessibility. Media for all 2} (S. 99–108). Brill. \url{https://doi.org/10.1163/9789042031814_009}
+\end{styleStandard}
+
+\begin{styleStandard}
+O’Brien, S. (2022). How to deal with errors in machine translation: Post-editing. In D. Kenny (Hrsg.), \textit{Machine translation for everyone: Empowering users in the age of artificial intelligence} (S. 105–120). Language Science Press. \url{https://doi.org/10.5281/ZENODO.6759982}
+\end{styleStandard}
+
+\begin{styleStandard}
+Oziemblewska, M., \& Szarkowska, A. (2022). The quality of templates in subtitling. A survey on current market practices and changing subtitler competences. \textit{Perspectives}, \textit{30}(3), 432–453. \url{https://doi.org/10.1080/0907676X.2020.1791919}
+\end{styleStandard}
+
+\begin{styleStandard}
+Papi, S., Gaido, M., Karakanta, A., Cettolo, M., Negri, M., \& Turchi, M. (2023). Direct Speech Translation for Automatic Subtitling. \textit{Transactions of the Association for Computational Linguistics}, \textit{11}, 1355–1376. \url{https://doi.org/10.1162/tacl_a_00607}
+\end{styleStandard}
+
+\begin{styleStandard}
+Qiu, J., \& Pym, A. (2024). Fatal flaws? Investigating the effects of machine translation errors on audience reception in the audiovisual context. \textit{Perspectives}, 1–17. \url{https://doi.org/10.1080/0907676X.2024.2328757}
+\end{styleStandard}
+
+\begin{styleStandard}
+Reinart, S. (2018). Untertitelung – über die etablierten Normen hinaus. In M. Agnetta (Hrsg.), \textit{Über die Sprache hinaus. Translatorisches Handeln in semiotischen Grenzräumen} (S. 131–155). Olms.
+\end{styleStandard}
+
+\begin{styleStandard}
+Risku, H. (2024). Reflections on individualized and extended translator~ studies. In Kadrić, Mira, Kolb, Waltraud, \& Pöllabauer, Sonja (Hrsg.), \textit{Translation als Gestaltung: Beiträge für Klaus Kaindl zur translatorischen Theorie und Praxis} (S. 65–74). Narr Francke Attempto.
+\end{styleStandard}
+
+\begin{styleStandard}
+Romero-Fresco, P., \& Fresno, N. (2023). Accuracy of automatic and human live captions in English. \textit{Linguistica Antverpiensia, New Series: Themes in Translation Studies}, \textit{22}, 114–133.
+\end{styleStandard}
+
+\begin{styleStandard}
+Ruokonen, M., \& Mäkisalo, J. (2018). Middling-status profession, high-status work: Finnish translators’ status perceptions in the light of their backgrounds, working conditions and job satisfaction. \textit{The International Journal of Translation and Interpreting Research}, \textit{10}(1), 1–17. \url{https://doi.org/10.12807/ti.110201.2018.a01}
+\end{styleStandard}
+
+\begin{styleStandard}
+Schierl, F. (2023). Reception of Machine-Translated and Human Translated Subtitles: A Case Study. \textit{Proceedings of Machine Translation Summit XIX, Vol. 2: Users Track}, 42–53. \url{https://aclanthology.org/2023.mtsummit-users.4.pdf}
+\end{styleStandard}
+
+\begin{styleStandard}
+Silvester, H. (2022). Working conditions and collaborative practices in the translation of French film: Subtitling \textit{banlieue} cinema. \textit{Perspectives}, \textit{30}(3), 399–414. \url{https://doi.org/10.1080/0907676X.2021.1903517}
+\end{styleStandard}
+
+\begin{styleStandard}
+Szarkowska, A., Díaz Cintas, J., \& Gerber-Morón, O. (2021). Quality is in the eye of the stakeholders: What do professional subtitlers and viewers think about subtitling? \textit{Universal Access in the Information Society}, \textit{20}(4), 661–675. \url{https://doi.org/10.1007/s10209-020-00739-2}
+\end{styleStandard}
+
+\begin{styleStandard}
+Tardel, A. (2023). A proposed workflow model for researching production processes in subtitling. \textit{trans-kom}, \textit{16}(1), 140–173.
+\end{styleStandard}
+
+\begin{styleStandard}
+Tardel, A., \& Hansen-Schirra, S. (2024). Prozessorientierte Methoden. In A. Künzli \& K. Kaindl (Hrsg.), \textit{Handbuch Audiovisuelle Translation. Arbeitsmittel für Wissenschaft, Studium, Praxis} (S. 287–303). Frank \& Timme, Verlag für Wissenschaftliche Literatur.
+\end{styleStandard}
+
+\begin{styleStandard}
+Vercauteren, G., Reviers, N., \& Steyaert, K. (2021). Evaluating the effectiveness of machine translation of audio description: The results of two pilot studies in the English-Dutch language pair. \textit{Tradumàtica: tecnologies de la traducció}, \textit{19}, 226–252. \url{https://doi.org/10.5565/rev/tradumatica.288}
+\end{styleStandard}
+
+\begin{styleStandard}
+Wang, Y., Liang, W., Huang, H., Zhang, Y., Li, D., \& Yu, L.-F. (2021). Toward automatic audio description generation for accessible videos. \textit{Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21)}, 1–12. \url{https://doi.org/10.1145/3411764.344534}
+\end{styleStandard}
+
+\end{document}
