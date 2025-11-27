@@ -162,7 +162,7 @@ overleafgithub:
 	cp -r  ../6*/* .
 	mv Makefile.tmp Makefile
 	rm -f zenodo*
-	rm -f *aux *png *lg *nd *xml *bbl *toc *log *dx chapters/*aux chapters/*g chapters/*d chapters/*dx *bcf *bak*
+	rm -rf *aux *png *lg *nd *xml *bbl *toc *log *dx chapters/*aux chapters/*g chapters/*d chapters/*dx *bcf *bak* origs*
 	git add *
 	git commit -am 'copy from Overleaf'
 	git push
